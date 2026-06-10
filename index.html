@@ -158,6 +158,11 @@ const rel = iso => {
 
 fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('updated').textContent = rel(d.generated_at);
+  if (d.data_quality && d.data_quality !== 'full'){
+    const q = document.getElementById('shortBanner');
+    q.style.display='block';
+    q.textContent = 'Data quality: ' + d.data_quality + (d.data_quality_note ? ' · ' + d.data_quality_note : '');
+  }
   if (Date.now() - new Date(d.generated_at) > 14*3600e3){
     const b = document.getElementById('shortBanner');
     b.style.display='block';

@@ -1,0 +1,19 @@
+# Profilo dominio: frontiera AI / agentic engineering
+# Chiavi fetcher: lette da fetch_free.py --profile ai-agentic (la CLI ha precedenza).
+# Chiavi skill (x_handles*, note): lette da Claude ai Passi 0 e 2, ignorate dal fetcher.
+name: ai-agentic
+descrizione: Frontiera AI/agentic (tooling, agenti, Claude Code, LLM engineering)
+sources: hackernews,github,googlenews,substack
+gh_extra_terms: llm agent, coding agent, claude code
+subreddits: LocalLLaMA, MachineLearning, ClaudeAI, singularity
+# Feed RSS verificati il 2026-06-10 (HTTP 200 con item): Mollick, Lambert, swyx, Jack Clark.
+substack_pubs: www.oneusefulthing.org, www.interconnects.ai, www.latent.space, importai.substack.com
+min_rel: 0.15
+hn_min_points: 5
+# Handle verificati in codebase (agentic-eng-watch / leaderboard / raw di run precedenti):
+x_handles: karpathy, mitchellh, simonw, HamelHusain
+# Candidati NON ancora verificati: confermare con mcp__x__x_get_user prima del primo uso
+# (no fabrication). La lista canonica top10/top12 la mantengono agentic-eng-watch e
+# scanner-experts-frontier: riusare quella, non inventare.
+x_handles_candidati: swyx, mitsuhiko, addyosmani, thorstenball, GeoffreyHuntley
+note: dominio di test originario della skill; HN/GitHub qui sono forti, default completo.
