@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#0b0d12">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Fable 5 — Top 10 Use Cases (last 24h)</title>
+<title>Fable 5 · Top 10 Use Cases (last 24h)</title>
 <meta name="description" content="The 10 most useful real-world Claude Fable 5 use cases spotted in the last 24 hours. AI-curated, source-linked, refreshed every 12 hours.">
 <style>
   :root{
@@ -121,7 +122,7 @@
   <div class="stars-box">
     <p><b>Was this report useful?</b></p>
     <div class="stars" id="stars" role="radiogroup" aria-label="Rate this report 1 to 5 stars">
-      <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
+      <span data-v="1" tabindex="0" role="radio" aria-label="1 stars">★</span><span data-v="2" tabindex="0" role="radio" aria-label="2 stars">★</span><span data-v="3" tabindex="0" role="radio" aria-label="3 stars">★</span><span data-v="4" tabindex="0" role="radio" aria-label="4 stars">★</span><span data-v="5" tabindex="0" role="radio" aria-label="5 stars">★</span>
     </div>
     <p class="stars-note">Your rating · stored only on this device</p>
     <a class="tweet-link" id="tweetRating" target="_blank" rel="noopener">Share your rating on X →</a>
@@ -196,10 +197,14 @@ fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
     document.getElementById('tweetRating').href =
       'https://x.com/intent/post?text='+encodeURIComponent(t);
   };
-  tweet(cur);
-  stars.forEach(s=>s.addEventListener('click',()=>{
-    cur = +s.dataset.v; localStorage.setItem(key, cur); paint(cur); tweet(cur);
-  }));
+  const tl = document.getElementById('tweetRating');
+  tl.style.display = cur ? 'inline-block' : 'none';
+  if (cur) tweet(cur);
+  const rate = v => { cur=v; localStorage.setItem(key,v); paint(v); tweet(v); tl.style.display='inline-block'; };
+  stars.forEach(s=>{
+    s.addEventListener('click',()=>rate(+s.dataset.v));
+    s.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();rate(+s.dataset.v);} });
+  });
 }).catch(()=>{
   document.getElementById('list').innerHTML =
     '<li class="card"><h2>Could not load data</h2><p class="why">data/latest.json unavailable.</p></li>';
