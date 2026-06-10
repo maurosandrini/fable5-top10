@@ -46,6 +46,9 @@ If fewer than 10 use cases pass the bar, the list is published short. No filler.
 ## How it works
 
 - `data/latest.json`: the current ranked list (the web UI reads this file).
+- `data/ledger.json`: the **cumulative ledger** of every use case that ever passed the
+  quality bar, with `first_seen`, `last_seen`, `best_rank` and `runs_in_top10`. The top 10
+  is a moving window over this list: items drop out of the ranking but are never forgotten.
 - `data/archive/`: every previous run, timestamped.
 - `data/raw/`: full raw dumps of every API response used in a run, so every number in the
   list can be traced back to its source (no orphan numbers).

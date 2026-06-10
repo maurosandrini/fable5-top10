@@ -1,0 +1,186 @@
+{
+  "updated_at": "2026-06-10T17:35:00Z",
+  "note": "Cumulative ledger of every use case that ever passed the quality bar. The public top 10 is a moving window over this list.",
+  "items": [
+    {
+      "id": "one-prompt-audit-of-an-entire-knowledge-vault-with-parallel-",
+      "title": "One-prompt audit of an entire knowledge vault with parallel agents",
+      "why_useful": "A single prompt sent 8 audit agents through 13GB of a personal knowledge vault, reviewing every automation and Claude Code skill built since January. A ready-made recipe for periodically auditing any large agentic setup instead of trusting it blindly.",
+      "post_url": "https://x.com/tomcrawshaw01/status/2064699738545701371",
+      "source": "x",
+      "author": "tomcrawshaw01",
+      "claimed_metrics": "8 audit agents, 13GB vault (self-reported by author)",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 1,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 15,
+        "retweets": 1
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "the-auditor-pattern-a-fresh-session-that-distrusts-the-agent",
+      "title": "The Auditor pattern: a fresh session that distrusts the agent's own memory",
+      "why_useful": "An AI trading agent declared itself profitable; an audit by Fable 5 in a brand-new session with the instruction 'don't trust the memory's conclusions, read the data' found a loss instead. The transferable idea: every working agent needs an independent auditor with no shared history.",
+      "post_url": "https://x.com/c_neumann20/status/2064571422681321956",
+      "source": "x",
+      "author": "c_neumann20",
+      "claimed_metrics": "-$1,093 found by audit (self-reported by author)",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 2,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 0,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "tell-the-orchestrator-explicitly-which-model-its-subagents-m",
+      "title": "Tell the orchestrator explicitly which model its subagents must use",
+      "why_useful": "Fable 5 loves spawning subagents, and by default they can run on the expensive tier. The fix is one line in your prompt: 'subagents should use Opus/Sonnet'. Corroborated by multiple users converging on 'Fable plans, cheaper models execute'.",
+      "post_url": "https://x.com/RickTDing/status/2064755333625512301",
+      "source": "x",
+      "author": "RickTDing",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 3,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 0,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "real-world-burn-rates-107-subagents-and-975k-tokens-in-10-mi",
+      "title": "Real-world burn rates: 107 subagents and 975k tokens in 10 minutes",
+      "why_useful": "Concrete cost anecdotes from day one: 107 agents spawned in 10 minutes burning 975k tokens, and a small half-hour project consuming a full 5-hour usage limit. Useful calibration data before pointing Fable 5 at anything unattended.",
+      "post_url": "https://x.com/thejordanwood/status/2064725683893576077",
+      "source": "x",
+      "author": "thejordanwood",
+      "claimed_metrics": "107 agents, 975k tokens in 10 min (self-reported by author)",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 4,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 0,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "measure-cost-per-thinking-effort-level-with-a-fixed-benchmar",
+      "title": "Measure cost per thinking-effort level with a fixed benchmark artifact",
+      "why_useful": "Simon Willison generated the same artifact at every thinking-effort level and published the API cost of each, plus a TIL on computing token spend for a model not yet in pricing databases. A replicable method for building your own effort-level rate card.",
+      "post_url": "https://x.com/simonw/status/2064502387952570853",
+      "source": "x",
+      "author": "simonw",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 5,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 44,
+        "retweets": 1
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "harness-beats-model-the-environment-is-still-the-multiplier",
+      "title": "Harness beats model: the environment is still the multiplier",
+      "why_useful": "On everyday spreadsheet tasks Fable 5 barely moves the needle, while a purpose-built harness and environment dramatically outperform the default skill. Evidence that investing in your tooling around the model keeps paying off even after a frontier release.",
+      "post_url": "https://x.com/GuangyuRobert/status/2064750035443876012",
+      "source": "x",
+      "author": "GuangyuRobert",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 6,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 6,
+        "retweets": 3
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "spec-interview-first-then-autonomy-on-week-sized-tasks",
+      "title": "Spec-interview first, then autonomy on week-sized tasks",
+      "why_useful": "The emerging workflow: pick a backlog item you would normally scope for a full week, let Fable 5 interview you to build the spec, then hand it the work. Others split it into three explicit workflows: plan, code, review (performance, security, conventions).",
+      "post_url": "https://x.com/shamshudein/status/2064754187234341212",
+      "source": "x",
+      "author": "shamshudein",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 7,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 0,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "goal-prompt-coach-a-plugin-that-turns-rough-ideas-into-self-",
+      "title": "goal-prompt-coach: a plugin that turns rough ideas into self-verifying prompts",
+      "why_useful": "A Claude Code plugin tuned for Fable 5: give it a rough idea, it asks a few questions, then hands back a /goal prompt the model runs solo until the work checks out. A small, copyable pattern for anyone building prompt-coaching workflows.",
+      "post_url": "https://x.com/dontcallmejames/status/2064571668622663922",
+      "source": "x",
+      "author": "dontcallmejames",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 8,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 0,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "curated-component-libraries-as-working-context-for-design-ta",
+      "title": "Curated component libraries as working context for design tasks",
+      "why_useful": "Electrical panel design by giving Fable 5 access to a component library, a BOM, a skill library and a few heuristics: 'far from perfect, but already better than some layout engines'. The general pattern: curated domain libraries beat raw prompting for structured design work.",
+      "post_url": "https://x.com/K_leeeb/status/2064752585131663543",
+      "source": "x",
+      "author": "K_leeeb",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 9,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 2,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "text-to-rendered-explainer-videos-with-claude-code-remotion",
+      "title": "Text to rendered explainer videos with Claude Code + Remotion",
+      "why_useful": "Pairing Claude Code with Remotion to turn plain text into fully rendered motion-graphics explainer videos, with Fable 5 writing the components. A deterministic, lock-in-free video pipeline for anyone producing educational content.",
+      "post_url": "https://x.com/farxxxxx1/status/2064756668232090110",
+      "source": "x",
+      "author": "farxxxxx1",
+      "claimed_metrics": "$14,600/month by a dev using this stack (self-reported by author)",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "best_rank": 10,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "likes": 2,
+        "retweets": 0
+      },
+      "status": "in_top10"
+    }
+  ]
+}

@@ -119,6 +119,8 @@
 
   <ol id="list"></ol>
 
+  <p style="text-align:center;font-size:13px;color:var(--dim);margin-top:6px" id="ledgerLine"></p>
+
   <div class="stars-box">
     <p><b>Was this report useful?</b></p>
     <div class="stars" id="stars" role="radiogroup" aria-label="Rate this report 1 to 5 stars">
@@ -197,6 +199,13 @@ fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
       ${it.claimed_metrics?`<div class="claimed">⚠︎ claimed: ${esc(it.claimed_metrics)} (self-reported, not verified)</div>`:''}
       <a class="go" href="${esc(safeUrl(it.post_url))}" target="_blank" rel="noopener">View the post →</a>
     </li>`).join('');
+
+  fetch('data/ledger.json?'+Date.now()).then(r=>r.json()).then(l=>{
+    const n = (l.items||[]).length;
+    document.getElementById('ledgerLine').innerHTML =
+      `The top 10 is a moving window: <b>${n}</b> use cases tracked since Jun 10 · ` +
+      `<a href="data/ledger.json" style="color:var(--acc2)">full ledger</a>`;
+  }).catch(()=>{});
 
   // stars (per-report, localStorage only)
   const key = 'f5rating:'+d.generated_at;

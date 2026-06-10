@@ -4,6 +4,7 @@
 Invarianti (post check avverso grok 2026-06-10):
   A. ogni post_url e ogni valore di engagement compare nei raw del run;
   B. 1-10 item, rank consecutivi da 1;
+  G. (--ledger) item pubblicati presenti nel ledger cumulativo, id unici, mai accorciato;
   C. why_useful non vuoto e con overlap lessicale col testo del post nei raw
      (>= 2 parole contenuto, anti-hallucination);
   D. se il testo raw del post contiene numeri "vistosi" ($, k, %), claimed_metrics
@@ -39,6 +40,7 @@ def main() -> int:
     ap.add_argument("--data", required=True)
     ap.add_argument("--raw-dir", required=True)
     ap.add_argument("--prev", default="", help="archivio del run precedente (per check E)")
+    ap.add_argument("--ledger", default="", help="data/ledger.json (per check G)")
     args = ap.parse_args()
 
     data = json.loads(Path(args.data).read_text(encoding="utf-8"))
@@ -105,12 +107,29 @@ def main() -> int:
             if it.get("streak", 1) <= prev_items[url].get("streak", 1):
                 errors.append(f"E: rank {r}: item ripetuto senza streak incrementato")
 
+    # G: ledger cumulativo coerente (ogni item pubblicato sta nel ledger, id unici,
+    # il ledger non si accorcia mai rispetto al run precedente)
+    if args.ledger and Path(args.ledger).is_file():
+        ledger = json.loads(Path(args.ledger).read_text(encoding="utf-8"))
+        lit = ledger.get("items", [])
+        urls = [x.get("post_url") for x in lit]
+        ids = [x.get("id") for x in lit]
+        if len(set(ids)) != len(ids):
+            errors.append("G: id duplicati nel ledger")
+        for it in items:
+            if it.get("post_url") not in urls:
+                errors.append(f"G: rank {it.get('rank')}: item pubblicato assente dal ledger")
+        if len(lit) < len(prev_items):
+            errors.append(f"G: ledger ({len(lit)}) più corto del run precedente ({len(prev_items)}): il ledger non dimentica")
+    elif args.ledger:
+        errors.append("G: ledger richiesto ma non trovato: " + args.ledger)
+
     if errors:
         print("FAIL (" + str(len(errors)) + " violazioni):")
         for e in errors:
             print("  " + e)
         return 1
-    print(f"PASS: {len(items)} item verificati contro i raw; invarianti A-F ok.")
+    print(f"PASS: {len(items)} item verificati contro i raw; invarianti A-G ok.")
     return 0
 
 
