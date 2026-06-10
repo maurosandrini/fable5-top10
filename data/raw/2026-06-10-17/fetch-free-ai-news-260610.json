@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "query": "artificial intelligence",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-09",
+    "sources": [
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "cultural",
+    "x_handles_hint": "doctorow",
+    "min_rel": 0.34,
+    "source_counts_raw": {
+      "hackernews": 1,
+      "googlenews": 25
+    },
+    "source_counts_final": {
+      "googlenews": 12
+    },
+    "count": 12,
+    "generated_at": "2026-06-10T16:26:26+00:00"
+  },
+  "items": [
+    {
+      "source": "googlenews",
+      "title": "What restorative justice teaches us in an age of artificial intelligence - Marquette Today",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1BtdE9BN1lsQmttUEpKZVRBZ1p0ZlFnMVFQVmVyZUZjdXFXaGVJZE0yVmJGS0pFMTVSRkFlWm9wWS1YRV9NWm9wQUQ1SS1rdWhaNnhLTXVpRjFRNTBiNmZ4WDJsRVlaZ19EMmVTNTFFZEJSWEhMUVdESHdqZHg3Y3VBMXBoTDFUdGdsYm1NUHlTMmRBdHVzaF96bzhVQUZUdTJQenQtNXRLaTllSlE?oc=5",
+      "author": null,
+      "container": "Marquette Today",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Artificial Intelligence in Psychopharmacology: Promise and Pitfalls, With Roy Perlis, MD - Psychiatric Times",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWVSYk96eFh3dEptMHFxMmNpTjRKMmhaVVNCTGdhUkNjcjBoUmJzRnJzV21jMUxiOEtSZ01aVXpfTU5LSFhsb0h5dlRKdmt1bkJiSHpMSEstb2dYLUdsU25jY3FLeTliOHdTMHZPbDZlNU9laTB2RGdNaklKSnhYdlJPVmVrUXQ3NTFJd2JZX2Y3Z2NjVndacVFqb2txejBYTXE4T1M0aXhKUXV0R3BQWlp3U082ZEpPSFNlbDB2OVA?oc=5",
+      "author": null,
+      "container": "Psychiatric Times",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Will Artificial Intelligence Finally Crack The Non-QM Cost Problem? - National Mortgage Professional",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNelpqSW1OZUdiZnpTd01tLVphWmZUbTJMUU56dVNhcXJkTWs4dmdmOWp5SFBlTFRrd0RGUU9UMG9IMnk1dXdnc3pORDlsbTNwaWt4bUh4aXREWkYtdTJkU1JXc0JYaHV5RWtheEZ3SlhtN3J1WkZLd1p4cmJzZFdwZ1U0ck0tanIxdTVmRkpoTG95Y1hqNGd6NGhrdGRVeGl1NGY0YmdENVhSSmNn?oc=5",
+      "author": null,
+      "container": "National Mortgage Professional",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXM5QzJBWEJPZHV0RXQtcEVQd3IwazJoOWhlY1lpNWxYVEt5N2FvWTNBUUR4RWpFbkp1b3Z1bzZBdU5INjA4Z2pSRk8xRnB4YVEzclZFV1g0cE5kLXRyNXJJUGZ5S3BJWEhDOTVqcmpwd0h2YndzM0t6VlUzOXRVd0RDNTVuOFVvVmpSY2ZzSTNqcEd4U3h5VTFJMFpPVl9OUzN4Rg?oc=5",
+      "author": null,
+      "container": "WIRED",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Here's How SoFi Is Using Artificial Intelligence (AI) and Why It Matters. Hint: It Could Be a Game-Changer. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaUVRRndDdVQxV2RoUlNvYTJVY09NbVItUjlPRU5RdS15VnN3OF9HTEhuMFk5ZUdwYUtBVmtMeVNsYkhNMXFfaUxwY29lSkUyNkJlZlJtTl9hSklOQ1RkRlFVZmlTY0o4VnE1ZnA4SWxSblNjekMxc1dVUXBqRVR3ejBBbVVlVnRHdDdORVVMcHVwZm5pLTdXck5fQUxwQVM2dnFyUDE3VmRpaUFWWFE?oc=5",
+      "author": null,
+      "container": "Yahoo Finance",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "2 Artificial Intelligence (AI) Infrastructure Stocks Outgrowing Nvidia - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmJWejFnMVRhakpEY3NIUktEMXpSdW0tSUVmTTA3SHJMdGtSRUc3Z0FvNlFTOFcwSVhjUzl5WmRLWnktMERvNm9sWl9kSUN2aGxuWXZEZHpHZjdkMmVueVpXaWZHdUstUzJCZkU1elZXX0x4UW5zR29LWUd1WjZONEtjREZjWElIMXAtY3pZV0FEdDRCeUFWMQ?oc=5",
+      "author": null,
+      "container": "The Motley Fool",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Artificial intelligence tools to be integrated into HENSOLDT MDOcore platform - Military Embedded Systems",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdFhJRm55NW4tN09lQkF2RXcwQktSMTQ1UzVWUlQ3a2tmZGF6b0pra09oNTZKUEN2eDlnNms0QnJFYTVHbVgwcUFhZ0s2dHVqc3psQ21SbmpQN2NiaFJFVEhGLUwzOWdvN0ZkVkVDZWVPNkVYdnVTUnExNWxPVlZvWU9kNTd2NEFXRGZIRjVobXhvcmFhVDRaaXFZME9jZFA0UUU2NHVKOHRVdzJYSHJBQUZKQjZlRUdrN3c?oc=5",
+      "author": null,
+      "container": "Military Embedded Systems",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "The World's Most Important Chipmaker Has Fantastic News for Artificial Intelligence (AI) Stock Investors - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVUtTVhvTzhUNUxSNEtSZWY3SnR3MmlxY3JzcUtYYnF2bFpwd2UycXRIZGFISEhlVTVVUG9NOHV3R3JHTGJ3Qm1WOXJDaDIxenpsTDlVa0cxSktMQ2hHbl9EZUFweTYzWVVrcThaeFhqXzdWcHA5LU9nWFN2NGExa1VvcWJiMWQzUE0zQ3I2cWVud1VCNjFB?oc=5",
+      "author": null,
+      "container": "The Motley Fool",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdXdxMVk3RUwxdi1uaFhQc09JVGJiRUtmbTFQMnYzdFNueFVsR3NvNUZwMDIycTJ3ZWxUNGtJc296ZlV0R2U0QjZPYW1WQUZGeHIwbm4yT3FRNlNSbjNTRTVuOUk2MTJXQUJ5T0Vyc05CZGdVaFduTm9zNmQwYXZUbnNtbVVYTDYyUEVmbzFNckwxbmNHQnlj?oc=5",
+      "author": null,
+      "container": "The Motley Fool",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "The use of artificial intelligence: From clinical decision-making to courtroom strategy | Viewpoint - Chief Healthcare Executive",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUGVrbk5fbXplNFZNb1pua3VxNXl0V3ZlRkF0Yl9EdmlMajEwS1VPOHN0UnB6NUl5Ym1fYlpxcFM4bUEweHEzUGhFcUZ5c2R5eTQxa3VGQ01NcHRlNk9uejB3dDhXM0ZXeU1wVF9EbW80NnJ3b0YxWDRPYlpPRXdLRjFJb0NvWDNZbVV4U3VzUEdGR3lCRWVpVlQwb09JX0xBUzlwUXZoV1dIR2VDSjRPWW1lbHVBYWl0Ri1GNFNiTV9UanlPTC1WQ2dzbk1maWh1ZHdyU04ybDhIdw?oc=5",
+      "author": null,
+      "container": "Chief Healthcare Executive",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Artificial intelligence that makes a difference in people’s lives: how EU4Youth helped Denis Zacon achieve his social mission - EU NEIGHBOURS east",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQ2hqMGJFV3RyLU1QME5rX1o0Vk9WSUxtV0JSV2o3dmd3ODNJMzBzRDI5NDRsU0psaGowczhYUFBPb0MyUzNqU3MwLTdSeHFWYlh2bGlQTC00ZWEzcTNlTW1pUy1JeXQtdFl3dkJ1aFY2SlJXc2tFcU9pdUpBeTRGRlZWUG1Ob2t0UVV0NjR3TnFic3phVDQ4bHBNX2Q0WkxoVWhKQTZjcmdwU3NIUU1CdUp2NVlHa0staGtDRnZ3dG9ESHV6MjZjdGs5b2dTa0VVY2VJWGNXYmM0d2pQWmtNQUZFUHZia0tORjNWdF9WZy1MNjNqT2hhOA?oc=5",
+      "author": null,
+      "container": "EU NEIGHBOURS east",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "googlenews",
+      "title": "Artificial Intelligence (AI) Market Worth $3,638.08 Billion by 2033 | Report by MarketsandMarkets - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSDZKdVZwRENMUHFNaG9UTjBhQllVdUp3aXFIQm1oYU51Z3RMRE9OcWpuRGpBdVFXSlljR2ljT3BRZWxoamFMOGgwN1pQcmxqbmR6OHNVcnBkbkhvd0F2aXVQTzR5bmoxTGIyd014TkFFNWJhSldMSGd3ZnNPV2JuRUNqSHIwVEdoLWhYWVROOGlSSG9TN1pZeWZ0eDNKUFdpZ2NoTEdQVWQ?oc=5",
+      "author": null,
+      "container": "Moomoo",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    }
+  ]
+}

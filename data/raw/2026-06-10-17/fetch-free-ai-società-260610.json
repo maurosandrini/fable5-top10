@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "query": "AI jobs workers school",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-09",
+    "sources": [
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "cultural",
+    "x_handles_hint": "doctorow",
+    "min_rel": 0.2,
+    "source_counts_raw": {
+      "googlenews": 20
+    },
+    "source_counts_final": {
+      "googlenews": 15
+    },
+    "count": 15,
+    "generated_at": "2026-06-10T16:26:27+00:00"
+  },
+  "items": [
+    {
+      "source": "googlenews",
+      "title": "How to help knowledge workers who lose their jobs to AI - Platformer",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX0MzYVl6cENZNXFsWWtqX0JpSFBPRUphSjQ3aldSWjlGc1NBckhuNXV2U01JTHJ3WXRtWDM0RE40NllKQ09QUFJGaTNPc0VudGdZMmJ2b0puY3hwN01LY1Fkdkxub1dpNEVLZTlwM0k5eW9GLThROUVxdGlnYTFKdFA4MjRsQ1hNTWRZMg?oc=5",
+      "author": null,
+      "container": "Platformer",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.75,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.722
+    },
+    {
+      "source": "googlenews",
+      "title": "AI, jobs, and the next generation - The Official Microsoft Blog",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMVBwYUFvS2tlZWtBSi1xR085SThNYnB4dm53RXp2d05XY0FaUmk4c3hVVnlIcUlpLVNHOXFjWHgwcGE3TWU4dldkQks4ZklPc2luRDdBSVhjTkRfd1VFaG9pRTVnSXBHQTF2bGRzTEY4VWZBSXptV0tBN0dBQUpsVm16R2k5ZWc2cFpsSnNB?oc=5",
+      "author": null,
+      "container": "The Official Microsoft Blog",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.572
+    },
+    {
+      "source": "googlenews",
+      "title": "Scaring college kids about AI coming for their jobs is the worst thing commencement speakers could have done - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ienYtRXNGV3o0VTJ6V1I1Rm5zNDJ1VXlrYTJHNjlBWGhaS0hoRmMxT2lYNDM0NHFZeWZaXzVHckFsN2NjQXBfd3JLd3MzWDBfekgtRDFjOTcxdHIxNFJrMU9ia3Q3aHg4X1JFcGJjTFZkMU9iZTF0UFQ3aGRrVTg?oc=5",
+      "author": null,
+      "container": "AOL.com",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.572
+    },
+    {
+      "source": "googlenews",
+      "title": "New BU Research Reveals an “AI Layoff Trap” That Harms Both Workers and Firms - FinancialContent",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNlBTamFzRHhGOUlKZ1M0c1JIRGdrV0cxT293Q0t6NDl3ODItYmdYVTVKSzI0ZXJaQ2lZYTRBUndQb2pVQ3pXUnlsa1E2RXc3WHZtZnBwMllneWF0U2MyeHhZelRlT2NIc1d6WU9aVXZNU2c3eDhFam55RkZGd041VWRoVHVwRE56ZmJsdkdZa3o5ZnZsa2FFaE5pZndiSEN3cmJweFVXcEdYdHZOYzVrLXJMQ1p1UHFNZWJvOEJULU1lS3Yyamxrbk1SQ1RueVU?oc=5",
+      "author": null,
+      "container": "FinancialContent",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.572
+    },
+    {
+      "source": "googlenews",
+      "title": "Economists Weigh In on the Future of Work and AI - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlR5TEhSQk9KRTFxVVlzUlN0SkcwbnE4TjRCWFFwcnVSMGRFcE5fRktVbjNyeVltRk04d1pwX0t5TnF0WVNGc0J0bWF0QVBPQWFVMUJ5eHM3MDlGOF9pZnFibWd6Zl92ZVFic3ZnLWN0eUFDTlFpaGoySG9TRzlKX21XdW1JYnJEbGxOTnRB?oc=5",
+      "author": null,
+      "container": "WSJ",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.422
+    },
+    {
+      "source": "googlenews",
+      "title": "Erie County Technical School students ready for work after graduation - Erie Times-News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQjlFUXgxWnhtUjRTM3c3TEJlc3BabUpCUU9Tc0k2azI1NlRsRmRfZG1seW52SFpGQmtudFg2aFlSWGpTQlZRRl82U2NPcG01WndkZWJpLUd3dEJJeUNVWnlBdWNkWW0zdUtVZjk1c2p0b2huUXdIdHdKTlBQb0gxRzlsbDBFdHR5SHBuN2hLclk4OWo1QWFjdE5rbGR5YjdORjBuWEdIWmJkMi1YZW5LR1JMckdJM3kzTDlpQjFreUtiVXpIb2ZEdA?oc=5",
+      "author": null,
+      "container": "Erie Times-News",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.422
+    },
+    {
+      "source": "googlenews",
+      "title": "Amazon's multibillion-dollar deal with Corning creates 1,000 jobs in North Carolina - About Amazon",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTzJ3Q1VMX3FNYVdMRlp4QVBPREpOdmJoNTI5TmVVOTRjRWhyTjQwbEY0RXY0cVlVVkd6TDZHb3UyR2FKdi1ySXFjQW9WOGh6VkNxZDdVZHlseTNFcXhBdWJqNm52QTZFc2tfOEZpZFV4dFU1eXltUE1rVHhOZjd6dURnWlhDQ2o0ck5qV1V4dTV5SEc1RktDRUppSDN3enc?oc=5",
+      "author": null,
+      "container": "About Amazon",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.422
+    },
+    {
+      "source": "googlenews",
+      "title": "Fairfield County Signing Day connects 36 students to jobs - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3dHVFlYMkhXaVA2MlF3S3MwcHktcHpsei1jd0FDSlZ5U01VVk9XazJBR3BISHk4TGFjQXk4NlY1dHdFeWo1MFp1ZGFla1ZsQmF6a3A3U1NwU3YxZXFJUVRpMnBjY01rMkpkVUJRajB0X3BST24yUFVBZ0lFWFgtRENqcw?oc=5",
+      "author": null,
+      "container": "AOL.com",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.422
+    },
+    {
+      "source": "googlenews",
+      "title": "There is no AI boom without these workers. Meta just proved it. - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU0xKdjVzWjRqazRVYmR3YldObFVHdGwwLXI1cG9JMGthYl92S1dYZlJSZXVUMjFpVXYzeU00WGlkMzdkSUlKZ3owUk9CSWFiMU9WV2RrWm9sdmw4YnJBZVRYN0p0QTQ5NDVVdThXbWJkbkxBYmJUYmlaN1FITFBwR1V0TE1oNEJkQW91VnhwcDNHMk1y?oc=5",
+      "author": null,
+      "container": "Business Insider",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.372
+    },
+    {
+      "source": "googlenews",
+      "title": "Meta to train workers to build data centers, other AI infrastructure in Indiana - WANE 15",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOellHWFZpZlYtcllmUWF2cWFNdTJiaG1Ob25GV2pUcUFzUzlKdml2MmVsYVlwVUt5QnNqYTVCV3VTajVoZ2cwRmJGWlNlVVRGNHRqWFUtaHJmaHl3R1pDV1ZqX3dzc3V0cDdvMVJtVWlYN0FLSUdVWUpnay1RRVJjRFV3bmRnbm9PNDl3Zl83YTE1bnU2Y3BZaTZ5cnNVWWN6WHFqRjFXTHRVZGtscFZkYVdB0gG3AUFVX3lxTE9JcEpZelFxMUNtZFRhUlMzREFtZ2V0Q0Y4SDFLU3FqLWpuR3lxX0tvMlo3LUg2aDhWNk5zamhCYTlCeE9ocG5JZzFZYXFFbDdEOURMbzBmeE9ubHVRRFZNYndQWm9EOEN5d1ZDOFFCQVJpeHZiSHVCSVg4anF2Rk9wWHFjLXJpOFlTNjYwOS1mejlzZ0xPb1VwUmZYbXA2WkhDNFBkcFFYa0tjckVxMUVwRVh3MFZZYw?oc=5",
+      "author": null,
+      "container": "WANE 15",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.372
+    },
+    {
+      "source": "googlenews",
+      "title": "Meta and Mike Rowe launch $115M trade-training program that guarantees jobs to future welders, plumbers, electricians - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0U5V3QyU0t1QVQxSGVoNjR4b3c4Z3VoZmUxejh3QklwM0tDS1VhVkdrdDFsME01Uk42aVhzT0FJc0d6b1ZXMGh1MkI0dXM3aml6NnRhQUtWVEJGZkIySVBLWTFOZmRUYmRvOV9CNFdWZG9sck5PMTM5NU9jTlhHb1pBM2FYeVRXRGlHUTIwX3NOdHhXdnE3V0phQQ?oc=5",
+      "author": null,
+      "container": "New York Post",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.222
+    },
+    {
+      "source": "googlenews",
+      "title": "Indianapolis selected for Meta AI workforce training program - WNDU",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbXBCT29MYVUydkxIZ1oteTBGUFZmZUktejF6WUo5Z3E1ZUp0NVFEekFGMXV6MWlvUnBJVjdfZXdXX3VXMDNiM1VKTV9xVVdSS0VhazJyWUZEZXQtcm92cHU4dkM5a1hBWmFoeDM5Ylh2Wm13WU5MNXlTT3R2X2ZkS0JrSjlDTzV0UXkyN1NqVW1GM1RkeU9vQUU2N1ZCMlBQenVsbXR6dzUya2dZcy1N?oc=5",
+      "author": null,
+      "container": "WNDU",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.222
+    },
+    {
+      "source": "googlenews",
+      "title": "Hawley Op-Ed: AI Will Control Us If We Do Not Control It - U.S. Senate (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONkIzaXYwSG5sTHFEOTZhbXpaYzh2VEltdmFVQ1AwZXg5bGhmc21JUXhtaWlEcHNoVmZLWFd5Q0pSUS1vT1daQ094dWxuYkkxR2dMVEpMeEo1RTQ3RVp2MDZIRjFnQmlsSFRxbVVUOWdEX2ZVRkNKWHk0UExmQlhBbEVFX3NCdExJR0x4YURocw?oc=5",
+      "author": null,
+      "container": "U.S. Senate (.gov)",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.222
+    },
+    {
+      "source": "googlenews",
+      "title": "Employers Are Saying No to Remote Work for New Grads—Except for These In-Demand Jobs - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcUZDd0I0Wmp6b1BkUHB3UU9xdXlwcXlxWjFNcVlUbjdpSXVYNUhFYW5OdjROcnRna2NwdzJTaWhPcG1BdWF1LVRlblJYdTVjaTZMMHZ0NUE4MGk4Q3RKdVoxVFNlWjFiTWg3ajduSEpTQzhZLUNHeGhKNDVPeFNJTw?oc=5",
+      "author": null,
+      "container": "AOL.com",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.222
+    },
+    {
+      "source": "googlenews",
+      "title": "Making AI Accessible: SheTech Interns Interview Abs King - TechBuzz News",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1POFNmQUp3eGNMcklsSFpPYXI3R3RPUTRLbHhfaWhQeFY3WHV2VjZhM1E2NUl4VFlMU0trV1ZpRGlRWFhPOG11UllQSnFobmp0b0ZlUDZnR19lQV9jRUppLVlkRmdJcE0wcWdEaEFsemVaUQ?oc=5",
+      "author": null,
+      "container": "TechBuzz News",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 0.25,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.222
+    }
+  ]
+}

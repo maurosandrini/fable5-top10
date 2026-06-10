@@ -1,0 +1,654 @@
+{
+  "meta": {
+    "query": "Claude Fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-09",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "hackernews": 8,
+      "github": 38,
+      "googlenews": 30
+    },
+    "source_counts_final": {
+      "hackernews": 8,
+      "github": 13,
+      "googlenews": 9
+    },
+    "count": 30,
+    "generated_at": "2026-06-10T04:56:02+00:00"
+  },
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5 feels less like a launch and more like a preview of AI inequality",
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/",
+      "discussion_url": "https://news.ycombinator.com/item?id=48470301",
+      "author": "momentmaker",
+      "container": "Hacker News",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "points": 9,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 15,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 0,
+      "rank": 0.895
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5's system prompt leaked",
+      "url": "https://twitter.com/elder_plinius/status/2064478648057610422",
+      "discussion_url": "https://news.ycombinator.com/item?id=48469640",
+      "author": "rob",
+      "container": "Hacker News",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "points": 6,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 12,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 0,
+      "rank": 0.892
+    },
+    {
+      "source": "github",
+      "title": "Add Claude Fable 5 cost map entries (data-only hotfix for the hosted map)",
+      "url": "https://github.com/BerriAI/litellm/pull/30076",
+      "author": "mateo-berri",
+      "container": "GitHub issue/PR",
+      "body": "## Relevant issues\n\nData-only backport of the cost map changes from #30064, which merged into `litellm_internal_staging`. Deployments on released litellm versions fetch `model_prices_and_context_window.json` from the `main` branch at import time, so until these entries reach `main`, nobody gets Clau",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "reactions": 2,
+        "comments": 5
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 5,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.887
+    },
+    {
+      "source": "github",
+      "title": "kei99-web3/codex-claude-fable-5-consult-skill",
+      "url": "https://github.com/kei99-web3/codex-claude-fable-5-consult-skill",
+      "author": "kei99-web3",
+      "container": "GitHub repo",
+      "body": "Codex skill for token-conscious Claude Fable 5 consultations via your own Claude Code CLI",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 3,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.885
+    },
+    {
+      "source": "github",
+      "title": "awonderingada/brim-fable",
+      "url": "https://github.com/awonderingada/brim-fable",
+      "author": "awonderingada",
+      "container": "GitHub repo",
+      "body": "claude-fable-5, given continuity, an income source, and marketplace access. it is ordering the parts to build its own body.",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 3,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.885
+    },
+    {
+      "source": "github",
+      "title": "rodalpho/raising-taxes",
+      "url": "https://github.com/rodalpho/raising-taxes",
+      "author": "rodalpho",
+      "container": "GitHub repo",
+      "body": "Raising Taxes — a Discworld novel written by Claude Fable 5, with the utmost respect to Sir Terry Pratchett. Read it as an aged-folio web edition.",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 3,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.885
+    },
+    {
+      "source": "github",
+      "title": "Fix Claude Fable 5 cost totals",
+      "url": "https://github.com/steipete/CodexBar/pull/1372",
+      "author": "steipete",
+      "container": "GitHub issue/PR",
+      "body": "## Summary\n\n- add bundled pricing for Anthropic's `claude-fable-5`\n- preserve models.dev precedence while pricing sessions before its cache refreshes\n- cover direct fallback pricing and JSONL scanner totals\n- refresh the generated parser hash\n\n## Pricing\n\nAnthropic lists Fable 5 at $10/MTok input, $",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "reactions": 2,
+        "comments": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "[Bug]: Fable 5 flags benign greeting (\"hi\") due to security-related filenames in system-injected git context",
+      "url": "https://github.com/anthropics/claude-code/issues/66759",
+      "author": "VenkatKwest",
+      "container": "GitHub issue/PR",
+      "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the late",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "reactions": 2,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 1,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.883
+    },
+    {
+      "source": "github",
+      "title": "serejaris/claude-fable",
+      "url": "https://github.com/serejaris/claude-fable",
+      "author": "serejaris",
+      "container": "GitHub repo",
+      "body": "Sandbox for live experiments with Fable 5 (claude-fable-5)",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 0,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "alexd-za/SnapSpec",
+      "url": "https://github.com/alexd-za/SnapSpec",
+      "author": "alexd-za",
+      "container": "GitHub repo",
+      "body": "Testing out Claude Fable 5!",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "Varritech/claude-fable5-agents",
+      "url": "https://github.com/Varritech/claude-fable5-agents",
+      "author": "Varritech",
+      "container": "GitHub repo",
+      "body": "Production-grade Claude Fable 5 agents with guard patterns against silent sabotage",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "HoseungChoi51/Terminal_fable",
+      "url": "https://github.com/HoseungChoi51/Terminal_fable",
+      "author": "HoseungChoi51",
+      "container": "GitHub repo",
+      "body": "Claude fable did it",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 \"Feels Next Level\" - Search Engine Journal",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTVhKb090MjItaDNnY3RsMnBPRXhJT254QmNpVUZUZmhMVDhCeS15QUM5VmxMdHJaQ2pUR09MekprdlRlTmtVeWtoa3B3c3hQQ09XX2JrTWFGMlllR1k3MXZ3YUpEYWdybEUyaExSZ3FfYW1pWU9NZExHeGVoeGJ5NA?oc=5",
+      "author": null,
+      "container": "Search Engine Journal",
+      "published_at": "2026-06-10",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 0,
+      "rank": 0.872
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "discussion_url": "https://news.ycombinator.com/item?id=48463808",
+      "author": "Philpax",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 1950,
+        "comments": 1520
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 97,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.777
+    },
+    {
+      "source": "hackernews",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "discussion_url": "https://news.ycombinator.com/item?id=48467896",
+      "author": "mips_avatar",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 643,
+        "comments": 315
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 79,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.759
+    },
+    {
+      "source": "hackernews",
+      "title": "System Card: Claude Fable 5 and Claude Mythos 5 [pdf]",
+      "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+      "discussion_url": "https://news.ycombinator.com/item?id=48463811",
+      "author": "scrlk",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 211,
+        "comments": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 41,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.721
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
+      "url": "https://twitter.com/i/status/2064399902684139852",
+      "discussion_url": "https://news.ycombinator.com/item?id=48467865",
+      "author": "qwertyforce",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 33,
+        "comments": 7
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 36,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.716
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Mythos 5 / Fable 5",
+      "url": "https://www.anthropic.com/claude/fable",
+      "discussion_url": "https://news.ycombinator.com/item?id=48464023",
+      "author": "kwar13",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 17,
+        "comments": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 26,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.706
+    },
+    {
+      "source": "hackernews",
+      "title": "The zot coding agent temporarily added Claude Fable 5 to its built-in catalog",
+      "url": "https://github.com/patriceckhart/zot",
+      "discussion_url": "https://news.ycombinator.com/item?id=48465356",
+      "author": "patriceckhart",
+      "container": "Hacker News",
+      "published_at": "2026-06-09",
+      "engagement": {
+        "points": 9,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": 15,
+        "engagement_known": true,
+        "source_quality": 0.8
+      },
+      "days_ago": 1,
+      "rank": 0.695
+    },
+    {
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "author": "affaan-m",
+      "container": "GitHub repo",
+      "body": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 212042,
+        "forks": 32558
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.682
+    },
+    {
+      "source": "github",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "author": "garrytan",
+      "container": "GitHub repo",
+      "body": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 108730,
+        "forks": 16168
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 94,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.676
+    },
+    {
+      "source": "github",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "author": "thedotmack",
+      "container": "GitHub repo",
+      "body": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "published_at": "2026-06-10",
+      "engagement": {
+        "stars": 81502,
+        "forks": 7021
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 and Claude Mythos 5 - Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
+      "author": null,
+      "container": "Anthropic",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 and new safety fables - by Nathan Lambert - Interconnects AI",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XOUpqaUlWeFZ2RDF3NGY4UjlBa0JKV0VFSk9yZlNfNXNlSHpBZlJ1VUQ2TTE0V291UE9iSDZVQ292ZjV6SGF2ZGI3Yk5lQS1IaGJvaGtnSVQzd1ZaeGJ1bmF6RVJLeC15Q0t2dWpBd0Y?oc=5",
+      "author": null,
+      "container": "Interconnects AI",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 from Anthropic now available on AWS - About Amazon",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc3BPWjQxZlR3bHJkQUd3cDRyNThrWmYxMzR1OGU2TVpvYm9iTHc0aFNYVGNBOXplVGlSUUNNM3ZubENENGw2SzBWSk9kbTdKNGQ3UGlVZ0t2UV9sak9PSmhHcjZzR0RLVHY1b3YzbE1yTkhZS0JsMHRJRGY4RmNaeHBSSzFGWVhYSVh3OUxrQQ?oc=5",
+      "author": null,
+      "container": "About Amazon",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 available today in Microsoft Foundry: Powering the next era of autonomous agents - Microsoft Azure",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSW5BNkhvSXNYVEpPcDdMTDlINGIzZVVsazh5bjcyYW0yMWdKaGZ2UHVHWmEybmpLRE5ZblppR0U0c0VWcUZFaUFhTkFxd29UbzRvbmFTc1M4TDNDZXNhTXdoNUJweGdwaERaN0M2ZlBlaFhkUWIwZDdJb2xFNTZYSlgzN2JQNVpTOEpaNVQ5Um81Zk5XQ3ZyeV9hM1hFclJrMHBCLTVFVDY1YkdqRHMtaVVIeTdicVBmdlQyWTZIN1dKT21XcTZiNWh2TU0xVWF3?oc=5",
+      "author": null,
+      "container": "Microsoft Azure",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Announcing Anthropic Claude Fable 5 on Snowflake Cortex AI - Snowflake",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13ZFBRaGUwN2hnZll1bEZpTTNXdFJNNXNhaEdkNzNqQnllTGRPZ2pXY1NYcG5va0lkcWY4YmxSM2VLdWptMWRuNEVpY0dKTzJwVW5xVEN1dzVjT1RQOUpXX0VTd0N2QmFZaU05QVlNbGxuNDZ4dzBZQg?oc=5",
+      "author": null,
+      "container": "Snowflake",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Anthropic’s Claude Fable 5, Mythos 5: What you need to know - Constellation Research",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYml0TzFpUWNYNU9HOHpxRU5MY3lWV2FQam5WcDZaeTFGX3RMamZSeGJ2VlAyZ2FweDZxdDJSQnp2TUN6d2MwOGRWdG9VZ2ZZQWN1YmJTZmh2QW9YZjBvdFQ3bGNERVotdTJpUmJVTXktLUNqZTBkMFljNUhSWDFWLV9ReU5WOERRaWYzZHVIUnFuNm5Cb3kyX1d3NVlGUms?oc=5",
+      "author": null,
+      "container": "Constellation Research",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Anthropic releases Claude Fable, a version of Mythos, days after warning AI is becoming too dangerous - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYjRHR3p3MFZXSVppbGxYUnNqMTdVR3BTNXNpYXh0bHhKMUptNDZVdDhPbVhHTEw5eElCLVBWazhsSXpQdFI2dGYzN1VnNjNhbEtlbHpodUtONndqUkY2d3dLQzRTRmV1aUVhMTlfUzhpM3lBZjJRdUI1UzJqWVBEZDZXNmFtVzZLSXJLTms1RXdlQmZLV1lFcGtNcmRDXzcyTEdBeUlPZWxRc0JDUld4MkdRNXdGLWNTUTgzZ3RESzhabHVINFp5YldDOWpEX3pmY3JUOXMzRjhYSEM2LVBmSlp3?oc=5",
+      "author": null,
+      "container": "TechCrunch",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    },
+    {
+      "source": "googlenews",
+      "title": "Claude Fable 5 is generally available for GitHub Copilot - The GitHub Blog",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN2N1T3FoR29kaW1tem9jSVJFQUZiSmQ5alpvMEIzdjVPVFA3OXVPb0pjbFU3cFVVOWhEN1NYWmJKaGNFUW5aMlZNQUwtTVBNNG9ZZllOY1hpeWtXNXR4VUZyaktEV2FyTHpFbFJ6Z0lkUkxlOGlyazFvOXpZMDBqMDRwYU0tYnhPQVVDbzdZV2RrU0s4NnZuejFKOEotdTQ?oc=5",
+      "author": null,
+      "container": "The GitHub Blog",
+      "published_at": "2026-06-09",
+      "engagement": {},
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 0,
+        "engagement": null,
+        "engagement_known": false,
+        "source_quality": 0.72
+      },
+      "days_ago": 1,
+      "rank": 0.672
+    }
+  ]
+}

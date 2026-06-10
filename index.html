@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Fable 5 — Top 10 Use Cases (last 24h)</title>
+<meta name="description" content="The 10 most useful real-world Claude Fable 5 use cases spotted in the last 24 hours. AI-curated, source-linked, refreshed every 12 hours.">
+<style>
+  :root{
+    --bg:#0b0d12; --card:#141823; --card2:#181d2b; --line:#232a3d;
+    --txt:#e8ebf4; --dim:#8b93a8; --acc:#ff7a45; --acc2:#a78bfa;
+    --gold:#fbbf24;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--bg); color:var(--txt);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:20px 16px 48px}
+  header{padding:28px 0 10px}
+  .kicker{
+    display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--acc);
+    border:1px solid color-mix(in srgb,var(--acc) 40%,transparent);
+    border-radius:999px;padding:4px 12px;margin-bottom:14px;
+  }
+  h1{font-size:clamp(26px,6.5vw,34px);line-height:1.15;font-weight:800;letter-spacing:-.02em}
+  h1 .grad{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--dim);font-size:14px;margin-top:10px}
+  .meta{
+    display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 6px;
+  }
+  .pill{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:10px 14px;font-size:13px;color:var(--dim);flex:1;min-width:150px;
+  }
+  .pill b{display:block;color:var(--txt);font-size:15px;margin-top:2px;font-variant-numeric:tabular-nums}
+  .pill b.live{color:var(--acc)}
+  .short-banner{
+    display:none;background:#2a1d12;border:1px solid #6b3b1a;color:#ffb98a;
+    border-radius:12px;padding:10px 14px;font-size:13px;margin:10px 0;
+  }
+  ol{list-style:none;margin-top:18px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:16px;margin-bottom:12px;position:relative;overflow:hidden;
+    transition:transform .15s ease,border-color .15s ease;
+  }
+  .card:active{transform:scale(.985)}
+  .card:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line))}
+  .rank{
+    position:absolute;top:-6px;right:8px;font-size:54px;font-weight:900;
+    color:transparent;-webkit-text-stroke:1.5px var(--line);line-height:1;user-select:none;
+  }
+  .card:nth-child(1) .rank{-webkit-text-stroke-color:var(--gold)}
+  .row{display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+  .chip{
+    font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    border-radius:6px;padding:3px 8px;background:var(--card2);color:var(--acc2);
+    border:1px solid var(--line);
+  }
+  .eng{font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .card h2{font-size:17px;font-weight:700;line-height:1.3;padding-right:40px}
+  .why{color:var(--dim);font-size:14px;margin-top:8px}
+  .claimed{
+    margin-top:8px;font-size:12px;color:#d9a03f;background:#241d10;
+    border:1px solid #4d3c14;border-radius:8px;padding:6px 10px;
+  }
+  .go{
+    display:inline-block;margin-top:12px;font-size:14px;font-weight:700;
+    color:var(--acc);text-decoration:none;
+  }
+  .go:hover{text-decoration:underline}
+  .stars-box{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:18px;margin-top:24px;text-align:center;
+  }
+  .stars-box p{font-size:14px;color:var(--dim)}
+  .stars{font-size:34px;letter-spacing:6px;cursor:pointer;user-select:none;margin:8px 0}
+  .stars span{color:#3a425a;transition:color .12s, transform .12s}
+  .stars span.on{color:var(--gold)}
+  .stars span:active{transform:scale(1.25)}
+  .stars-note{font-size:11px;color:var(--dim)}
+  .tweet-link{display:inline-block;margin-top:10px;font-size:13px;color:var(--acc2);text-decoration:none}
+  .tweet-link:hover{text-decoration:underline}
+  footer{margin-top:28px;text-align:center}
+  .follow{
+    display:inline-flex;align-items:center;gap:10px;
+    background:linear-gradient(90deg,var(--acc),var(--acc2));
+    color:#0b0d12;font-weight:800;font-size:15px;text-decoration:none;
+    border-radius:999px;padding:12px 22px;
+  }
+  .follow svg{width:18px;height:18px;fill:#0b0d12}
+  .disclaimer{
+    margin-top:20px;font-size:12px;color:var(--dim);line-height:1.6;
+    border-top:1px solid var(--line);padding-top:16px;text-align:left;
+  }
+  .disclaimer a{color:var(--acc2)}
+  @media(min-width:700px){ .card h2{font-size:18px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="kicker">AI-curated · source-linked</span>
+    <h1>Fable 5 <span class="grad">Top 10 Use Cases</span><br>from the last 24 hours</h1>
+    <p class="sub">The most useful, transferable patterns people are actually building with
+    Claude Fable 5. No demos, no viral slop, every claim linked to its source.</p>
+  </header>
+
+  <div class="meta">
+    <div class="pill">Last updated<b id="updated">…</b></div>
+    <div class="pill">Next update<b id="countdown" class="live">…</b></div>
+  </div>
+  <div class="short-banner" id="shortBanner"></div>
+
+  <ol id="list"></ol>
+
+  <div class="stars-box">
+    <p><b>Was this report useful?</b></p>
+    <div class="stars" id="stars" role="radiogroup" aria-label="Rate this report 1 to 5 stars">
+      <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span>
+    </div>
+    <p class="stars-note">Your rating · stored only on this device</p>
+    <a class="tweet-link" id="tweetRating" target="_blank" rel="noopener">Share your rating on X →</a>
+  </div>
+
+  <footer>
+    <a class="follow" href="https://x.com/maurosandrini" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      Follow me on X · @maurosandrini
+    </a>
+    <p class="disclaimer">
+      Curated and ranked by an AI (Claude), supervised by
+      <a href="https://x.com/maurosandrini" target="_blank" rel="noopener">Mauro Sandrini</a>.
+      Engagement numbers are measured from public APIs at fetch time; figures marked
+      <b>claimed</b> are self-reported by post authors and not verified. Not affiliated
+      with Anthropic. Ranking criteria and raw data:
+      <a href="https://github.com/maurosandrini/fable5-top10" target="_blank" rel="noopener">github.com/maurosandrini/fable5-top10</a>.
+    </p>
+  </footer>
+</div>
+
+<script>
+const fmtEng = e => Object.entries(e||{}).filter(([,v])=>v>0)
+  .map(([k,v])=>`${v} ${k}`).join(' · ') || 'engagement: low (corroborated)';
+const esc = s => String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const rel = iso => {
+  const s = (Date.now()-new Date(iso))/1000;
+  if (s<3600) return Math.max(1,Math.round(s/60))+' min ago';
+  if (s<86400) return Math.round(s/3600)+' h ago';
+  return Math.round(s/86400)+' d ago';
+};
+
+fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById('updated').textContent = rel(d.generated_at);
+  // countdown to next update
+  const next = new Date(new Date(d.generated_at).getTime() + (d.next_update_hours||12)*3600e3);
+  const cd = document.getElementById('countdown');
+  const tick = ()=>{
+    const ms = next - Date.now();
+    if (ms<=0){ cd.textContent='due now'; return; }
+    const h = Math.floor(ms/3600e3), m = Math.floor(ms%3600e3/60e3);
+    cd.textContent = `in ${h}h ${String(m).padStart(2,'0')}m`;
+  };
+  tick(); setInterval(tick, 30e3);
+
+  if ((d.items||[]).length < 10){
+    const b = document.getElementById('shortBanner');
+    b.style.display='block';
+    b.textContent = `Only ${d.items.length} use cases passed the quality bar in the last 24h. No filler.`;
+  }
+
+  document.getElementById('list').innerHTML = (d.items||[]).map(it=>`
+    <li class="card">
+      <div class="rank">${it.rank}</div>
+      <div class="row">
+        <span class="chip">${esc(it.source)}</span>
+        <span class="eng">${esc(fmtEng(it.engagement))}${it.streak>1?` · day ${it.streak}`:''}</span>
+      </div>
+      <h2>${esc(it.title)}</h2>
+      <p class="why">${esc(it.why_useful)}</p>
+      ${it.claimed_metrics?`<div class="claimed">⚠︎ claimed: ${esc(it.claimed_metrics)} (self-reported, not verified)</div>`:''}
+      <a class="go" href="${esc(it.post_url)}" target="_blank" rel="noopener">View the post →</a>
+    </li>`).join('');
+
+  // stars (per-report, localStorage only)
+  const key = 'f5rating:'+d.generated_at;
+  const stars = [...document.querySelectorAll('#stars span')];
+  const paint = v => stars.forEach(s=>s.classList.toggle('on', +s.dataset.v<=v));
+  let cur = +(localStorage.getItem(key)||0); paint(cur);
+  const tweet = v => {
+    const t = `I rate today's "Fable 5 Top 10 Use Cases" report ${'★'.repeat(v)||'…'} (${v}/5) by @maurosandrini\nhttps://maurosandrini.github.io/fable5-top10/`;
+    document.getElementById('tweetRating').href =
+      'https://x.com/intent/post?text='+encodeURIComponent(t);
+  };
+  tweet(cur);
+  stars.forEach(s=>s.addEventListener('click',()=>{
+    cur = +s.dataset.v; localStorage.setItem(key, cur); paint(cur); tweet(cur);
+  }));
+}).catch(()=>{
+  document.getElementById('list').innerHTML =
+    '<li class="card"><h2>Could not load data</h2><p class="why">data/latest.json unavailable.</p></li>';
+});
+</script>
+</body>
+</html>
