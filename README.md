@@ -31,16 +31,12 @@ If fewer than 10 use cases pass the bar, the list is published short. No filler.
 <!-- TOP10:START -->
 | # | Use case | Source | Link |
 |---|----------|--------|------|
-| 1 | One-prompt audit of an entire knowledge vault with parallel agents | X | [post](https://x.com/tomcrawshaw01/status/2064699738545701371) |
-| 2 | The Auditor pattern: a fresh session that distrusts the agent's own memory | X | [post](https://x.com/c_neumann20/status/2064571422681321956) |
-| 3 | Tell the orchestrator explicitly which model its subagents must use | X | [post](https://x.com/RickTDing/status/2064755333625512301) |
-| 4 | Real-world burn rates: 107 subagents and 975k tokens in 10 minutes | X | [post](https://x.com/thejordanwood/status/2064725683893576077) |
-| 5 | Measure cost per thinking-effort level with a fixed benchmark artifact | X | [post](https://x.com/simonw/status/2064502387952570853) |
-| 6 | Harness beats model: the environment is still the multiplier | X | [post](https://x.com/GuangyuRobert/status/2064750035443876012) |
-| 7 | Spec-interview first, then autonomy on week-sized tasks | X | [post](https://x.com/shamshudein/status/2064754187234341212) |
-| 8 | goal-prompt-coach: a plugin that turns rough ideas into self-verifying prompts | X | [post](https://x.com/dontcallmejames/status/2064571668622663922) |
-| 9 | Curated component libraries as working context for design tasks | X | [post](https://x.com/K_leeeb/status/2064752585131663543) |
-| 10 | Text to rendered explainer videos with Claude Code + Remotion | X | [post](https://x.com/farxxxxx1/status/2064756668232090110) |
+| 1 | Persistent context across sessions for every agent (claude-mem) | GitHub | [repo](https://github.com/thedotmack/claude-mem) |
+| 2 | ECC: agent harness with skills, instincts, memory and security baked in | GitHub | [repo](https://github.com/affaan-m/ECC) |
+| 3 | gstack: 23 specialized agent roles in one Claude Code setup | GitHub | [repo](https://github.com/garrytan/gstack) |
+| 4 | cc-switch: single desktop app to manage Claude Code, Codex, Gemini CLI and others | GitHub | [repo](https://github.com/farion1231/cc-switch) |
+| 5 | Claude Code best-practice guide: from vibe coding to agentic engineering | GitHub | [repo](https://github.com/shanraisshan/claude-code-best-practice) |
+| 6 | open-design: local-first open-source Claude Design with 259+ skills | GitHub | [repo](https://github.com/nexu-io/open-design) |
 <!-- TOP10:END -->
 
 ## How it works

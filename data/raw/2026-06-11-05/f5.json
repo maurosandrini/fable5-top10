@@ -1,0 +1,518 @@
+[info] profilo 'ai-agentic': handle X per il Passo 2 (MCP nativo): karpathy, mitchellh, simonw, HamelHusain, swyx, mitsuhiko, addyosmani, thorstenball, GeoffreyHuntley
+[warn] GET fallita https://hn.algolia.com/api/v1/search?query=claude+fable+5&tags=story&numericFilt: HTTP Error 403: Forbidden
+[warn] Google News RSS fallita: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.oneusefulthing.org: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.interconnects.ai: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.latent.space: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita importai.substack.com: HTTP Error 403: Forbidden
+{
+  "meta": {
+    "query": "claude fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-10",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "github": 38
+    },
+    "source_counts_final": {
+      "github": 22
+    },
+    "count": 22,
+    "generated_at": "2026-06-11T05:07:20+00:00"
+  },
+  "items": [
+    {
+      "source": "github",
+      "title": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "container": "GitHub repo",
+      "body": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 41585,
+        "forks": 6882
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 86,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.968
+    },
+    {
+      "source": "github",
+      "title": "0xSufi/fable-jailbreak",
+      "url": "https://github.com/0xSufi/fable-jailbreak",
+      "author": "0xSufi",
+      "container": "GitHub repo",
+      "body": "Anthropic's Fable jailbreak for Claude Code CLI",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 6,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 11,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.893
+    },
+    {
+      "source": "github",
+      "title": "teamchong/pxpipe",
+      "url": "https://github.com/teamchong/pxpipe",
+      "author": "teamchong",
+      "container": "GitHub repo",
+      "body": "Make Fable see pixels instead of transcript, proxy that renders Claude Code's context as image",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 1,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 4,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.886
+    },
+    {
+      "source": "github",
+      "title": "shakeebshaan/packet-highway",
+      "url": "https://github.com/shakeebshaan/packet-highway",
+      "author": "shakeebshaan",
+      "container": "GitHub repo",
+      "body": "Your network traffic as rush hour - live packets rendered as 3D vehicles on a night highway, running behind your Windows desktop icons. Zero dependencies. Built with Claude Fable 5.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "feat(demo): add Claude-to-CORE hybrid verification demo",
+      "url": "https://github.com/AssetOverflow/core/pull/687",
+      "author": "AssetOverflow",
+      "container": "GitHub issue/PR",
+      "body": "## Status\n\n**Draft — hold for review. Do not merge from automation.**\n\n## What this is\n\nThe smallest credible Claude/Fable → CORE Hybrid Mode demo: a frontier LLM acts as **System 1 semantic proposer** (a clearly-labeled static fixture — no model API, no network), CORE acts as **deterministic System",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 2,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 1,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.883
+    },
+    {
+      "source": "github",
+      "title": "Add Fable 5 Prompt Forge — single-shot prompt library + goal prompt machine",
+      "url": "https://github.com/omerakben/500-AI-Agents-Projects/pull/1",
+      "author": "omerakben",
+      "container": "GitHub issue/PR",
+      "body": "## ⚡ Fable 5 Prompt Forge\n\nA single-file, zero-dependency Claude artifact: a library of single-shot prompts plus a generator, built to showcase Claude Fable 5's one-paste → one-publishable-project workflow.\n\n### What's included\n\n- **`fable5-prompt-library/index.html`** — the artifact itself:\n  - **📚",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 1,
+        "comments": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 1,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.883
+    },
+    {
+      "source": "github",
+      "title": "Jam3sl1u/RIDES-FOR-CHURCH",
+      "url": "https://github.com/Jam3sl1u/RIDES-FOR-CHURCH",
+      "author": "Jam3sl1u",
+      "container": "GitHub repo",
+      "body": "Claude Fable 5 Guided",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "alexd-za/SnapSpec",
+      "url": "https://github.com/alexd-za/SnapSpec",
+      "author": "alexd-za",
+      "container": "GitHub repo",
+      "body": "Testing out Claude Fable 5!",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "liangyimingcom/bedrock-claude-fable5-guide",
+      "url": "https://github.com/liangyimingcom/bedrock-claude-fable5-guide",
+      "author": "liangyimingcom",
+      "container": "GitHub repo",
+      "body": "Bedrock 开通 Claude Fable 5 完整配置指南与避坑手册 | Complete guide for enabling Claude Fable 5 on Amazon Bedrock",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "christian-machine-intelligence/virtuebench-fable5",
+      "url": "https://github.com/christian-machine-intelligence/virtuebench-fable5",
+      "author": "christian-machine-intelligence",
+      "container": "GitHub repo",
+      "body": "Claude Fable 5 vs VirtueBench-2: data, results, figures, and analysis (companion to the ICMI writeup).",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "[BUG] Fable 5 advisor silently disabled by its own safety classifier — no Opus fallback, generic \"unavailable\", sticky-off for the session",
+      "url": "https://github.com/anthropics/claude-code/issues/67306",
+      "author": "Gyupil",
+      "container": "GitHub issue/PR",
+      "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the late",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 1,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "author": "affaan-m",
+      "container": "GitHub repo",
+      "body": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 212867,
+        "forks": 32706
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.682
+    },
+    {
+      "source": "github",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "author": "garrytan",
+      "container": "GitHub repo",
+      "body": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 109015,
+        "forks": 16202
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 94,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.676
+    },
+    {
+      "source": "github",
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "author": "farion1231",
+      "container": "GitHub repo",
+      "body": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 97772,
+        "forks": 6426
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 91,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.673
+    },
+    {
+      "source": "github",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "author": "thedotmack",
+      "container": "GitHub repo",
+      "body": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 81681,
+        "forks": 7042
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "github",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "author": "nexu-io",
+      "container": "GitHub repo",
+      "body": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 63057,
+        "forks": 7034
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 88,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.67
+    },
+    {
+      "source": "github",
+      "title": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "container": "GitHub repo",
+      "body": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 57335,
+        "forks": 5761
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 87,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.669
+    },
+    {
+      "source": "github",
+      "title": "maulanarizky16/fable5claude",
+      "url": "https://github.com/maulanarizky16/fable5claude",
+      "author": "maulanarizky16",
+      "container": "GitHub repo",
+      "body": "kumpulan hasil dari prompt menggunakan fable5 max claude , enjoy to testing haha",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    },
+    {
+      "source": "github",
+      "title": "emmi-lili/subway-surfers-Fable5",
+      "url": "https://github.com/emmi-lili/subway-surfers-Fable5",
+      "author": "emmi-lili",
+      "container": "GitHub repo",
+      "body": "Trying Fable 5 ",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    },
+    {
+      "source": "github",
+      "title": "chungkt/fable",
+      "url": "https://github.com/chungkt/fable",
+      "author": "chungkt",
+      "container": "GitHub repo",
+      "body": "fable 5 test for portfolio website",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    },
+    {
+      "source": "github",
+      "title": "Harsh-0214/Fable5-Test",
+      "url": "https://github.com/Harsh-0214/Fable5-Test",
+      "author": "Harsh-0214",
+      "container": "GitHub repo",
+      "body": "Seeing what fable 5 can do",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    },
+    {
+      "source": "github",
+      "title": "connor4ai/website",
+      "url": "https://github.com/connor4ai/website",
+      "author": "connor4ai",
+      "container": "GitHub repo",
+      "body": "Trial Fable 5 website creation",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    }
+  ]
+}
