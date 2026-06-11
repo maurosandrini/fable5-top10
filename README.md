@@ -35,8 +35,12 @@ If fewer than 10 use cases pass the bar, the list is published short. No filler.
 | 2 | ECC: agent harness with skills, instincts, memory and security baked in | GitHub | [repo](https://github.com/affaan-m/ECC) |
 | 3 | gstack: 23 specialized agent roles in one Claude Code setup | GitHub | [repo](https://github.com/garrytan/gstack) |
 | 4 | cc-switch: single desktop app to manage Claude Code, Codex, Gemini CLI and others | GitHub | [repo](https://github.com/farion1231/cc-switch) |
-| 5 | Claude Code best-practice guide: from vibe coding to agentic engineering | GitHub | [repo](https://github.com/shanraisshan/claude-code-best-practice) |
-| 6 | open-design: local-first open-source Claude Design with 259+ skills | GitHub | [repo](https://github.com/nexu-io/open-design) |
+| 5 | Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design | GitHub | [repo](https://github.com/asgeirtj/system_prompts_leaks) |
+| 6 | graphify: turn any codebase or schema into a queryable knowledge graph | GitHub | [repo](https://github.com/safishamsi/graphify) |
+| 7 | open-design: local-first open-source Claude Design with 259+ skills | GitHub | [repo](https://github.com/nexu-io/open-design) |
+| 8 | ClaudeCode GodMode: declare intent, let 15 specialized agents decide execution | GitHub | [repo](https://github.com/cubetribe/ClaudeCode_GodMode-On) |
+| 9 | Curated awesome list of Claude Fable 5 use cases with benchmark evidence | GitHub | [repo](https://github.com/Anil-matcha/awesome-claude-fable-5) |
+| 10 | Fix: explicitly allow reasoning effort when calling Fable 5 in task pipelines | GitHub | [PR](https://github.com/PostHog/posthog/pull/62949) |
 <!-- TOP10:END -->
 
 ## How it works

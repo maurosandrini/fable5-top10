@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-06-11T05:10:04Z",
+  "window_hours": 24,
+  "next_update_hours": 12,
+  "run": "2026-06-11-05",
+  "data_quality": "partial",
+  "data_quality_note": "scheduled run: free sources only (HN/GitHub/Google News/Substack), no X data",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Persistent context across sessions for every agent (claude-mem)",
+      "why_useful": "Claude-mem captures everything an agent does during a session, compresses it with AI, and injects the most relevant past context at the start of each new session. This pattern solves the stateless-agent problem without requiring a custom database—it layers on top of any existing Claude Code workflow. With 81k stars and 7k forks, it is the most widely adopted persistent-memory layer in the Claude ecosystem.",
+      "post_url": "https://github.com/thedotmack/claude-mem",
+      "source": "github",
+      "author": "thedotmack",
+      "engagement": {"stars": 81681, "forks": 7042},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 2,
+      "title": "ECC: agent harness with skills, instincts, memory and security baked in",
+      "why_useful": "ECC is a performance-optimized agent harness that bundles skills, instincts, memory management, security, and a research-first development approach for Claude Code and other coding agents. It covers the full lifecycle from task intake to safe execution, providing a ready-to-fork blueprint for teams building production agentic systems. The 212k stars and 32k forks make it the most-referenced comprehensive harness pattern in the Claude ecosystem.",
+      "post_url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "author": "affaan-m",
+      "engagement": {"stars": 212867, "forks": 32706},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 3,
+      "title": "gstack: 23 specialized agent roles in one Claude Code setup",
+      "why_useful": "gstack open-sources Garry Tan's exact Claude Code configuration: 23 opinionated tools each assigned a distinct role—CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA—turning a single Claude Code session into a coordinated multi-role team. The setup is fully documented and copy-paste ready, providing a concrete starting point for anyone wanting structured role assignment without building from scratch. With 109k stars and 16k forks, it confirms that multi-role agent templates are now a mainstream Claude Code pattern.",
+      "post_url": "https://github.com/garrytan/gstack",
+      "source": "github",
+      "author": "garrytan",
+      "engagement": {"stars": 109015, "forks": 16202},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 4,
+      "title": "cc-switch: single desktop app to manage Claude Code, Codex, Gemini CLI and others",
+      "why_useful": "cc-switch is a cross-platform desktop app that unifies Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI, and Hermes Agent in a single UI, eliminating the friction of switching between AI coding tools mid-task. It directly enables the multi-model workflow where Fable 5 handles orchestration and cheaper models handle execution, all without reconfiguring terminals. With 97k stars and 6k forks, multi-model desktop orchestration has become a foundational tool choice for Claude Code builders.",
+      "post_url": "https://github.com/farion1231/cc-switch",
+      "source": "github",
+      "author": "farion1231",
+      "engagement": {"stars": 97772, "forks": 6426},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 5,
+      "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that 'practice makes claude perfect' grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
+      "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "github",
+      "author": "shanraisshan",
+      "engagement": {"stars": 57335, "forks": 5761},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 6,
+      "title": "open-design: local-first open-source Claude Design with 259+ skills",
+      "why_useful": "open-design is a local-first, open-source native desktop alternative to Claude's web Design mode, bundling over 259 skills and 142 design systems for web, desktop, and mobile prototyping. Running locally makes it viable for proprietary UI work where cloud APIs are restricted, and the open-source design means teams can add domain-specific skills. The 63k stars and 7k forks show the design-prototyping workflow is as mature an agentic use case as coding.",
+      "post_url": "https://github.com/nexu-io/open-design",
+      "source": "github",
+      "author": "nexu-io",
+      "engagement": {"stars": 63057, "forks": 7034},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    }
+  ]
+}

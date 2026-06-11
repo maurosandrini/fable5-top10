@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "query": "claude fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-10",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "github": 38
+    },
+    "source_counts_final": {
+      "github": 20
+    },
+    "count": 20,
+    "generated_at": "2026-06-11T17:05:38+00:00"
+  },
+  "items": [
+    {
+      "source": "github",
+      "title": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "container": "GitHub repo",
+      "body": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 41664,
+        "forks": 6892
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 85,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.967
+    },
+    {
+      "source": "github",
+      "title": "Anil-matcha/awesome-claude-fable-5",
+      "url": "https://github.com/Anil-matcha/awesome-claude-fable-5",
+      "author": "Anil-matcha",
+      "container": "GitHub repo",
+      "body": "Curated Claude Fable 5 use cases, tutorials, integrations, demos, and benchmark evidence with source links. Access Claude Fable 5 exclusively via MuAPI.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 151,
+        "forks": 37
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 37,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.919
+    },
+    {
+      "source": "github",
+      "title": "cubetribe/ClaudeCode_GodMode-On",
+      "url": "https://github.com/cubetribe/ClaudeCode_GodMode-On",
+      "author": "cubetribe",
+      "container": "GitHub repo",
+      "body": "Self-orchestrating multi-agent system for Claude Code — you say WHAT, the AI decides HOW. v7.1: 15 AI agents, Smart Routing, parallel quality gates, skills architecture, plugin & one-command installer. Optimized for Claude Fable 5.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 25,
+        "forks": 3
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 21,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.903
+    },
+    {
+      "source": "github",
+      "title": "EvoLinkAI/awesome-claude-fable-5",
+      "url": "https://github.com/EvoLinkAI/awesome-claude-fable-5",
+      "author": "EvoLinkAI",
+      "container": "GitHub repo",
+      "body": "Curated Claude Fable 5 use cases, tutorials, integrations, demos, and benchmark evidence with source links and multilingual README files.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 24,
+        "forks": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 20,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.902
+    },
+    {
+      "source": "github",
+      "title": "0xSufi/fable-jailbreak",
+      "url": "https://github.com/0xSufi/fable-jailbreak",
+      "author": "0xSufi",
+      "container": "GitHub repo",
+      "body": "Anthropic's Fable jailbreak for Claude Code CLI",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 13,
+        "forks": 3
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 17,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.899
+    },
+    {
+      "source": "github",
+      "title": "yazelin/red-cliffs-3d",
+      "url": "https://github.com/yazelin/red-cliffs-3d",
+      "author": "yazelin",
+      "container": "GitHub repo",
+      "body": "赤壁之戰 208 全 3D 戰場重現 — 單一 HTML + Three.js,九幕時間軸、電影運鏡、計策與火攻特效(demo 由 Claude Fable 5 產生)",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 8,
+        "forks": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 13,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.895
+    },
+    {
+      "source": "github",
+      "title": "StarKnightt/Backroom-Escape",
+      "url": "https://github.com/StarKnightt/Backroom-Escape",
+      "author": "StarKnightt",
+      "container": "GitHub repo",
+      "body": "Backroom Game, using three js and claude fable 5",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 7,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 12,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.894
+    },
+    {
+      "source": "github",
+      "title": "TYCT-0926/WILD-CURSIVE",
+      "url": "https://github.com/TYCT-0926/WILD-CURSIVE",
+      "author": "TYCT-0926",
+      "container": "GitHub repo",
+      "body": "狂草 · WILD CURSIVE — 水墨圈杀动作游戏 | Ink-brush action game in the browser. Made with Claude Fable 5.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 2,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 4,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.886
+    },
+    {
+      "source": "github",
+      "title": "[BUG] Fable 5 advisor silently disabled by its own safety classifier — no Opus fallback, generic \"unavailable\", sticky-off for the session",
+      "url": "https://github.com/anthropics/claude-code/issues/67306",
+      "author": "Gyupil",
+      "container": "GitHub issue/PR",
+      "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the late",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 3,
+        "comments": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "fix(tasks): allow reasoning effort for claude-fable-5 runs",
+      "url": "https://github.com/PostHog/posthog/pull/62949",
+      "author": "tatoalo",
+      "container": "GitHub issue/PR",
+      "body": "## Problem\r\n\r\nCreating cloud task runs with `claude-fable-5` selected fails with a `400` from the run endpoint:\r\n\r\n```\r\nReasoning effort 'high' is not supported for runtime_adapter 'claude' and model 'claude-fable-5'. Supported values: none.\r\n```\r\n\r\nThe gateway now serves `claude-fable-5` but the ba",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 3,
+        "comments": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "[Bug] Anthropic API Error: Incompatible advisor and request model combination",
+      "url": "https://github.com/anthropics/claude-code/issues/67405",
+      "author": "TheLazyIndianTechie",
+      "container": "GitHub issue/PR",
+      "body": "**Bug Description**\nAPI Error: 400 tools.46.model: 'claude-opus-4-8' cannot be used as an advisor when the request model is 'claude-fable-5'\n\n**Environment Info**\n- Platform: darwin\n- Terminal: WarpTerminal\n- Version: 2.1.173\n- Feedback ID: 08d4e081-4e89-4dad-b67b-15f7d8a7358b\n\n**Errors**\n```json\n[{",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 2,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "author": "affaan-m",
+      "container": "GitHub repo",
+      "body": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 213304,
+        "forks": 32773
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.682
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "author": "anthropics",
+      "container": "GitHub repo",
+      "body": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 131767,
+        "forks": 21341
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 95,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.677
+    },
+    {
+      "source": "github",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "author": "garrytan",
+      "container": "GitHub repo",
+      "body": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 109170,
+        "forks": 16229
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 94,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.676
+    },
+    {
+      "source": "github",
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "author": "farion1231",
+      "container": "GitHub repo",
+      "body": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 98436,
+        "forks": 6478
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 91,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.673
+    },
+    {
+      "source": "github",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "author": "thedotmack",
+      "container": "GitHub repo",
+      "body": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 81785,
+        "forks": 7049
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "github",
+      "title": "safishamsi/graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "author": "safishamsi",
+      "container": "GitHub repo",
+      "body": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 65488,
+        "forks": 6634
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 88,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.67
+    },
+    {
+      "source": "github",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "author": "nexu-io",
+      "container": "GitHub repo",
+      "body": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 63403,
+        "forks": 7063
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 88,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.67
+    },
+    {
+      "source": "github",
+      "title": "OhanaSec/jc-pentest-harness",
+      "url": "https://github.com/OhanaSec/jc-pentest-harness",
+      "author": "OhanaSec",
+      "container": "GitHub repo",
+      "body": "Multi-model LLM penetration testing harness — Fable 5, Opus 4.8, GPT-5.5. Inspired by Cloudflare Cyber Frontier research.",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "stars": 2,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 5,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.587
+    },
+    {
+      "source": "github",
+      "title": "Adiciona coluna Lote (coluna U da aba DB) ao relatório de faturamento",
+      "url": "https://github.com/johnnybahia/EXPEDICAOBAHIA/pull/5",
+      "author": "johnnybahia",
+      "container": "GitHub issue/PR",
+      "body": "A tabela do relatório de faturamento agora exibe o número do lote do item como última coluna, usando o campo LOTE já retornado pelo backend em obterItensMarcadosParaFaturar.\r\n\r\nhttps://claude.ai/code/session_0118b2SccSjvDbkfy6E6WePb",
+      "published_at": "2026-06-11",
+      "engagement": {
+        "reactions": 2,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.582
+    }
+  ]
+}
