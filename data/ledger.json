@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T17:11:40Z",
+  "updated_at": "2026-06-12T05:07:34Z",
   "note": "Cumulative ledger of every use case that ever passed the quality bar. The public top 10 is a moving window over this list.",
   "items": [
     {
@@ -198,7 +198,7 @@
         "stars": 81785,
         "forks": 7049
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "ecc-agent-harness-with-skills-instincts-memory-and-security",
@@ -216,7 +216,7 @@
         "stars": 213304,
         "forks": 32773
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "gstack-23-specialized-agent-roles-in-one-claude-code-setup",
@@ -234,7 +234,7 @@
         "stars": 109170,
         "forks": 16229
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "cc-switch-desktop-app-for-claude-code-codex-gemini-cli",
@@ -252,25 +252,25 @@
         "stars": 98436,
         "forks": 6478
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "claude-code-best-practice-from-vibe-coding-to-agentic-engineering",
       "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
-      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that 'practice makes claude perfect' grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
       "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "github",
       "author": "shanraisshan",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "best_rank": 5,
-      "runs_in_top10": 1,
+      "last_seen": "2026-06-12",
+      "best_rank": 2,
+      "runs_in_top10": 2,
       "engagement_latest": {
-        "stars": 57335,
-        "forks": 5761
+        "stars": 57474,
+        "forks": 5771
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "open-design-local-first-open-source-claude-design-alternative",
@@ -281,12 +281,12 @@
       "author": "nexu-io",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "best_rank": 6,
-      "runs_in_top10": 2,
+      "last_seen": "2026-06-12",
+      "best_rank": 1,
+      "runs_in_top10": 3,
       "engagement_latest": {
-        "stars": 63403,
-        "forks": 7063
+        "stars": 63614,
+        "forks": 7093
       },
       "status": "in_top10"
     },
@@ -299,12 +299,12 @@
       "author": "asgeirtj",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "best_rank": 5,
-      "runs_in_top10": 1,
+      "last_seen": "2026-06-12",
+      "best_rank": 4,
+      "runs_in_top10": 2,
       "engagement_latest": {
-        "stars": 41664,
-        "forks": 6892
+        "stars": 41731,
+        "forks": 6903
       },
       "status": "in_top10"
     },
@@ -324,7 +324,7 @@
         "stars": 65488,
         "forks": 6634
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "claudecode-godmode-declare-intent-let-15-specialized-agents-d",
@@ -342,7 +342,7 @@
         "stars": 25,
         "forks": 3
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "curated-awesome-list-of-claude-fable-5-use-cases-with-benchma",
@@ -360,7 +360,7 @@
         "stars": 151,
         "forks": 37
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "fix-explicitly-allow-reasoning-effort-when-calling-fable-5-in",
@@ -377,6 +377,24 @@
       "engagement_latest": {
         "reactions": 3,
         "comments": 2
+      },
+      "status": "dropped_from_top10"
+    },
+    {
+      "id": "codegraph-pre-indexed-code-knowledge-graph-for-claude-code",
+      "title": "codegraph: pre-indexed code knowledge graph for Claude Code and 10+ other runtimes",
+      "why_useful": "A pre-indexed code knowledge graph that gives any agent a structured map of symbols, call graphs, and relationships instead of raw file exploration—cutting token usage and tool call count. Works fully locally with no cloud dependency, so code stays private. Supports Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent out of the box.",
+      "post_url": "https://github.com/colbymchenry/codegraph",
+      "source": "github",
+      "author": "colbymchenry",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "best_rank": 3,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 47680,
+        "forks": 2905
       },
       "status": "in_top10"
     }
