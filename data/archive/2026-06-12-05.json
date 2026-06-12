@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-06-12T05:07:34Z",
+  "window_hours": 24,
+  "next_update_hours": 12,
+  "run": "2026-06-12-05",
+  "data_quality": "partial",
+  "data_quality_note": "scheduled run: free sources only (HN/GitHub/Google News/Substack), no X data",
+  "items": [
+    {
+      "rank": 1,
+      "title": "open-design: local-first open-source Claude Design with 259+ skills",
+      "why_useful": "A local-first, open-source alternative to Claude Design that runs as a native desktop app with 259+ skills and 142+ design systems. Produces web, desktop, and mobile prototypes plus slides, images, and videos with sandboxed preview and HTML/PDF/PPTX/MP4 export. Wires into Claude Code, Codex, Cursor, and 17+ other CLIs without any cloud dependency.",
+      "post_url": "https://github.com/nexu-io/open-design",
+      "source": "github",
+      "author": "nexu-io",
+      "engagement": {"stars": 63614, "forks": 7093},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 3
+    },
+    {
+      "rank": 2,
+      "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
+      "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "github",
+      "author": "shanraisshan",
+      "engagement": {"stars": 57474, "forks": 5771},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 3,
+      "title": "codegraph: pre-indexed code knowledge graph for Claude Code and 10+ other runtimes",
+      "why_useful": "A pre-indexed code knowledge graph that gives any agent a structured map of symbols, call graphs, and relationships instead of raw file exploration—cutting token usage and tool call count. Works fully locally with no cloud dependency, so code stays private. Supports Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent out of the box.",
+      "post_url": "https://github.com/colbymchenry/codegraph",
+      "source": "github",
+      "author": "colbymchenry",
+      "engagement": {"stars": 47680, "forks": 2905},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-12",
+      "streak": 1
+    },
+    {
+      "rank": 4,
+      "title": "Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design",
+      "why_useful": "A growing collection of extracted system prompts from Claude Fable 5, Opus 4.8, Claude Code, and Claude Design alongside OpenAI, Google, and xAI models. Studying these production-grade prompts reveals how major labs structure constraints, format instructions, and guide model behavior—directly applicable when designing your own system prompts for agents. Updated regularly as new models ship.",
+      "post_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "github",
+      "author": "asgeirtj",
+      "engagement": {"stars": 41731, "forks": 6903},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 2
+    }
+  ]
+}

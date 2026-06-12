@@ -1,0 +1,386 @@
+[info] profilo 'ai-agentic': handle X per il Passo 2 (MCP nativo): karpathy, mitchellh, simonw, HamelHusain, swyx, mitsuhiko, addyosmani, thorstenball, GeoffreyHuntley
+[warn] GET fallita https://hn.algolia.com/api/v1/search?query=claude+fable+5&tags=story&numericFilt: HTTP Error 403: Forbidden
+[warn] Google News RSS fallita: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.oneusefulthing.org: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.interconnects.ai: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.latent.space: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita importai.substack.com: HTTP Error 403: Forbidden
+{
+  "meta": {
+    "query": "claude fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-11",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "github": 38
+    },
+    "source_counts_final": {
+      "github": 16
+    },
+    "count": 16,
+    "generated_at": "2026-06-12T17:05:02+00:00"
+  },
+  "items": [
+    {
+      "source": "github",
+      "title": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "container": "GitHub repo",
+      "body": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 41823,
+        "forks": 6924
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 88,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.97
+    },
+    {
+      "source": "github",
+      "title": "Anil-matcha/awesome-claude-fable-5",
+      "url": "https://github.com/Anil-matcha/awesome-claude-fable-5",
+      "author": "Anil-matcha",
+      "container": "GitHub repo",
+      "body": "Curated Claude Fable 5 use cases, tutorials, integrations, demos, and benchmark evidence with source links. Access Claude Fable 5 exclusively via MuAPI.",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 168,
+        "forks": 39
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 38,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.92
+    },
+    {
+      "source": "github",
+      "title": "Braffolk/fable5-world-demo",
+      "url": "https://github.com/Braffolk/fable5-world-demo",
+      "author": "Braffolk",
+      "container": "GitHub repo",
+      "body": "3D world built by Claude Fable 5 to test its capabilities using three.js",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 21,
+        "forks": 4
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 20,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.902
+    },
+    {
+      "source": "github",
+      "title": "pulkitxm/claude-directory",
+      "url": "https://github.com/pulkitxm/claude-directory",
+      "author": "pulkitxm",
+      "container": "GitHub repo",
+      "body": "Experimentation projects with Anthropic's new Claude models (Fable 5 / Mythos)",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 12,
+        "forks": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 15,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.897
+    },
+    {
+      "source": "github",
+      "title": "yazelin/red-cliffs-3d",
+      "url": "https://github.com/yazelin/red-cliffs-3d",
+      "author": "yazelin",
+      "container": "GitHub repo",
+      "body": "赤壁之戰 208 全 3D 戰場重現 — 單一 HTML + Three.js,九幕時間軸、電影運鏡、計策與火攻特效(demo 由 Claude Fable 5 產生)",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 9,
+        "forks": 3
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 14,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.896
+    },
+    {
+      "source": "github",
+      "title": "saynchowdhury/claude-fable-5-system-prompt",
+      "url": "https://github.com/saynchowdhury/claude-fable-5-system-prompt",
+      "author": "saynchowdhury",
+      "container": "GitHub repo",
+      "body": "system prompt of claude fable 5",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 5,
+        "forks": 2
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 10,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.892
+    },
+    {
+      "source": "github",
+      "title": "VoidLight00/deo-harness",
+      "url": "https://github.com/VoidLight00/deo-harness",
+      "author": "VoidLight00",
+      "container": "GitHub repo",
+      "body": "Dynamic Effort Orchestration — a Claude Code + Fable 5 harness that assigns each sub-agent the effort level its task deserves. Zero Opus fallback.",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 5,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 9,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.891
+    },
+    {
+      "source": "github",
+      "title": "feat: add Claude Fable 5 support",
+      "url": "https://github.com/openclaw/Peekaboo/pull/186",
+      "author": "steipete",
+      "container": "GitHub issue/PR",
+      "body": "## Summary\n- add explicit Claude Fable 5 (`claude-fable-5`) support across CLI parsing, settings, docs, and provider capability inference\n- keep Anthropic defaults on Claude Opus 4.8 for zero-retention compatibility while allowing Fable explicit selection and 128K max output\n- bump Tachikoma to land",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "reactions": 5,
+        "comments": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "Audit?",
+      "url": "https://github.com/andrewmccalip/kickbacks.ai/issues/40",
+      "author": "lfmundim",
+      "container": "GitHub issue/PR",
+      "body": "Hey, great idea, love the project, but I am a bit skeptical sometimes so I took a tool to inspect your tool. Claude Fable 5 drafted an inspection plan and decided that Opus 4.8 would perform the inspection. Below is their output, but before my primary concerns/questions:\n\n1. While I consider the \"Di",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "reactions": 3,
+        "comments": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 0,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "author": "x1xhlol",
+      "container": "GitHub repo",
+      "body": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 140098,
+        "forks": 34642
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.682
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "author": "anthropics",
+      "container": "GitHub repo",
+      "body": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 132027,
+        "forks": 21379
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 98,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.68
+    },
+    {
+      "source": "github",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "author": "nexu-io",
+      "container": "GitHub repo",
+      "body": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 63918,
+        "forks": 7125
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 91,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.673
+    },
+    {
+      "source": "github",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "author": "JuliusBrussee",
+      "container": "GitHub repo",
+      "body": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 71866,
+        "forks": 4043
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "github",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "author": "ruvnet",
+      "container": "GitHub repo",
+      "body": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 59114,
+        "forks": 6814
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "github",
+      "title": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "container": "GitHub repo",
+      "body": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "stars": 57538,
+        "forks": 5774
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 90,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.672
+    },
+    {
+      "source": "github",
+      "title": "Skill support: daily HTML report, keep-open profiles, on-demand OTP",
+      "url": "https://github.com/aaronvstory/DashManager/pull/5",
+      "author": "aaronvstory",
+      "container": "GitHub issue/PR",
+      "body": "Backend helpers powering the /dash-create and /dash-refunds Claude Code skills. Additive leaf modules — no changes to existing code.\n\n## Summary\n- **report.py** — self-contained daily HTML worklog (JS-free, offline, print-clean): customer roster, refund-status pills, claim rows, chat-bubble transcri",
+      "published_at": "2026-06-12",
+      "engagement": {
+        "reactions": 3,
+        "comments": 2
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 1,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.583
+    }
+  ]
+}
