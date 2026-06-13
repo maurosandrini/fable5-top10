@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-06-12T17:05:02Z",
+  "window_hours": 24,
+  "next_update_hours": 12,
+  "run": "2026-06-12-17",
+  "data_quality": "partial",
+  "data_quality_note": "scheduled run: free sources only (HN/GitHub/Google News/Substack), no X data",
+  "items": [
+    {
+      "rank": 1,
+      "title": "caveman: cut 65% of tokens by writing prompts like a caveman",
+      "why_useful": "A Claude Code skill that strips around 65% of prompt tokens by compressing language to bare essentials—no articles, short words, caveman grammar. Any team running Claude Code continuously can immediately cut operational token costs without changing underlying logic or infrastructure. With 71,000+ stars validated across the community, this is the fastest ROI technique on the list.",
+      "post_url": "https://github.com/JuliusBrussee/caveman",
+      "source": "github",
+      "author": "JuliusBrussee",
+      "engagement": {"stars": 71866, "forks": 4043},
+      "claimed_metrics": "65% token reduction (self-reported by author)",
+      "first_seen": "2026-06-12",
+      "streak": 1
+    },
+    {
+      "rank": 2,
+      "title": "open-design: local-first open-source Claude Design with 259+ skills",
+      "why_useful": "A local-first, open-source alternative to Claude Design that runs as a native desktop app with 259+ skills and 142+ design systems. Produces web, desktop, and mobile prototypes plus slides, images, and videos with sandboxed preview and HTML/PDF/PPTX/MP4 export. Wires into Claude Code, Codex, Cursor, and 17+ other CLIs without any cloud dependency.",
+      "post_url": "https://github.com/nexu-io/open-design",
+      "source": "github",
+      "author": "nexu-io",
+      "engagement": {"stars": 63918, "forks": 7125},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 4
+    },
+    {
+      "rank": 3,
+      "title": "ruflo: multi-agent swarm meta-harness with adaptive memory and RAG",
+      "why_useful": "A leading agent meta-harness for Claude that deploys intelligent multi-agent swarms, coordinates autonomous workflows, and builds conversational AI systems. Features adaptive memory, self-learning swarm intelligence, and RAG integration, with native Claude Code and Codex support. The declarative swarm configuration makes it practical to adopt without deep orchestration expertise.",
+      "post_url": "https://github.com/ruvnet/ruflo",
+      "source": "github",
+      "author": "ruvnet",
+      "engagement": {"stars": 59114, "forks": 6814},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-12",
+      "streak": 1
+    },
+    {
+      "rank": 4,
+      "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
+      "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "github",
+      "author": "shanraisshan",
+      "engagement": {"stars": 57538, "forks": 5774},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 2
+    },
+    {
+      "rank": 5,
+      "title": "Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design",
+      "why_useful": "A growing collection of extracted system prompts from Claude Fable 5, Opus 4.8, Claude Code, and Claude Design alongside OpenAI, Google, and xAI models. Studying these production-grade prompts reveals how major labs structure constraints, format instructions, and guide model behavior—directly applicable when designing your own system prompts for agents. Updated regularly as new models ship.",
+      "post_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "github",
+      "author": "asgeirtj",
+      "engagement": {"stars": 41823, "forks": 6924},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 3
+    },
+    {
+      "rank": 6,
+      "title": "Full system prompt collection for 25+ AI coding tools including Claude Code",
+      "why_useful": "A comprehensive collection of full system prompts and internal tool definitions for 25+ AI coding assistants including Claude Code, Cursor, Devin, Lovable, Manus, Windsurf, and more. Studying how leading tools structure their system prompts and tool definitions is directly useful when designing agent harnesses, evaluating what permissions to grant, and calibrating expected behavior differences across tools. 140k stars makes it the most-starred resource in this run.",
+      "post_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "source": "github",
+      "author": "x1xhlol",
+      "engagement": {"stars": 140098, "forks": 34642},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-12",
+      "streak": 1
+    }
+  ]
+}

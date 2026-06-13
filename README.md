@@ -31,12 +31,12 @@ If fewer than 10 use cases pass the bar, the list is published short. No filler.
 <!-- TOP10:START -->
 | # | Use case | Source | Link |
 |---|----------|--------|------|
-| 1 | caveman: cut 65% of tokens by writing prompts like a caveman | GitHub | [repo](https://github.com/JuliusBrussee/caveman) |
+| 1 | claude-mem: persistent context across sessions for every agent | GitHub | [repo](https://github.com/thedotmack/claude-mem) |
 | 2 | open-design: local-first open-source Claude Design with 259+ skills | GitHub | [repo](https://github.com/nexu-io/open-design) |
-| 3 | ruflo: multi-agent swarm meta-harness with adaptive memory and RAG | GitHub | [repo](https://github.com/ruvnet/ruflo) |
-| 4 | Claude Code best-practice guide: from vibe coding to agentic engineering | GitHub | [repo](https://github.com/shanraisshan/claude-code-best-practice) |
-| 5 | Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design | GitHub | [repo](https://github.com/asgeirtj/system_prompts_leaks) |
-| 6 | Full system prompt collection for 25+ AI coding tools including Claude Code | GitHub | [repo](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) |
+| 3 | Claude Code best-practice guide: from vibe coding to agentic engineering | GitHub | [repo](https://github.com/shanraisshan/claude-code-best-practice) |
+| 4 | Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design | GitHub | [repo](https://github.com/asgeirtj/system_prompts_leaks) |
+| 5 | oh-my-claudecode: teams-first multi-agent orchestration for Claude Code | GitHub | [repo](https://github.com/Yeachan-Heo/oh-my-claudecode) |
+| 6 | architect-loop: Claude Fable 5 as architect, Codex as builder, repo as memory | GitHub | [repo](https://github.com/DanMcInerney/architect-loop) |
 <!-- TOP10:END -->
 
 ## How it works

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T17:05:02Z",
+  "updated_at": "2026-06-13T05:09:50Z",
   "note": "Cumulative ledger of every use case that ever passed the quality bar. The public top 10 is a moving window over this list.",
   "items": [
     {
@@ -184,21 +184,21 @@
     },
     {
       "id": "persistent-context-across-sessions-for-every-agent-claude-mem",
-      "title": "Persistent context across sessions for every agent (claude-mem)",
-      "why_useful": "Captures everything your agent does across sessions, compresses it with AI, and injects relevant context back into future sessions—making cold starts stateful. The persistent memory layer eliminates the routine problem of agents forgetting prior decisions and duplicating work on each restart. Compatible with Claude Code, Codex, Gemini CLI, OpenCode, and seven other runtimes out of the box.",
+      "title": "claude-mem: persistent context across sessions for every agent",
+      "why_useful": "Captures everything an agent does across sessions, compresses it with AI, and injects relevant context into future sessions—eliminating cold-start amnesia. Any agent built on Claude Code, Codex, Gemini, Hermes, Copilot, or OpenCode can adopt it without changing its core logic. With 82k stars and confirmed growth since last run, it is the most widely validated memory layer in this data set.",
       "post_url": "https://github.com/thedotmack/claude-mem",
       "source": "github",
       "author": "thedotmack",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
+      "last_seen": "2026-06-13",
       "best_rank": 1,
-      "runs_in_top10": 2,
+      "runs_in_top10": 3,
       "engagement_latest": {
-        "stars": 81785,
-        "forks": 7049
+        "stars": 82031,
+        "forks": 7081
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "ecc-agent-harness-with-skills-instincts-memory-and-security",
@@ -257,18 +257,18 @@
     {
       "id": "claude-code-best-practice-from-vibe-coding-to-agentic-engineering",
       "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
-      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. The 57k stars confirm it has become the default starting checklist before building a new agentic project.",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. Confirmed engagement growth with 57,568 stars and 5,780 forks.",
       "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "github",
       "author": "shanraisshan",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-13",
       "best_rank": 2,
-      "runs_in_top10": 3,
+      "runs_in_top10": 4,
       "engagement_latest": {
-        "stars": 57538,
-        "forks": 5774
+        "stars": 57568,
+        "forks": 5780
       },
       "status": "in_top10"
     },
@@ -281,30 +281,30 @@
       "author": "nexu-io",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-13",
       "best_rank": 1,
-      "runs_in_top10": 4,
+      "runs_in_top10": 5,
       "engagement_latest": {
-        "stars": 63918,
-        "forks": 7125
+        "stars": 64044,
+        "forks": 7144
       },
       "status": "in_top10"
     },
     {
       "id": "study-extracted-system-prompts-from-fable-5-opus-4-8-claude-c",
       "title": "Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design",
-      "why_useful": "A growing collection of extracted system prompts from Claude Fable 5, Opus 4.8, Claude Code, and Claude Design alongside OpenAI, Google, and xAI models. Studying these production-grade prompts reveals how major labs structure constraints, format instructions, and guide model behavior—directly applicable when designing your own system prompts for agents. Updated regularly as new models ship.",
+      "why_useful": "A growing collection of extracted system prompts from Anthropic Claude Fable 5, Opus 4.8, Claude Code, and Claude Design alongside OpenAI, Google, and xAI models. Studying these production-grade prompts reveals how major labs structure constraints, format instructions, and guide model behavior—directly applicable when designing your own system prompts for agents. Updated regularly as new models ship.",
       "post_url": "https://github.com/asgeirtj/system_prompts_leaks",
       "source": "github",
       "author": "asgeirtj",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-13",
       "best_rank": 4,
-      "runs_in_top10": 3,
+      "runs_in_top10": 4,
       "engagement_latest": {
-        "stars": 41823,
-        "forks": 6924
+        "stars": 41889,
+        "forks": 6936
       },
       "status": "in_top10"
     },
@@ -414,7 +414,7 @@
         "stars": 71866,
         "forks": 4043
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "ruflo-multi-agent-swarm-meta-harness-with-adaptive-memory-and",
@@ -432,7 +432,7 @@
         "stars": 59114,
         "forks": 6814
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "full-system-prompt-collection-for-25-ai-coding-tools-incl",
@@ -449,6 +449,42 @@
       "engagement_latest": {
         "stars": 140098,
         "forks": 34642
+      },
+      "status": "dropped_from_top10"
+    },
+    {
+      "id": "oh-my-claudecode-teams-first-multi-agent-orchestration",
+      "title": "oh-my-claudecode: teams-first multi-agent orchestration for Claude Code",
+      "why_useful": "A teams-first multi-agent orchestration framework for Claude Code that takes an extensible configuration approach to managing and composing agent setups across a team. With 36,308 stars and 3,298 forks it has strong broad adoption, filling the real gap of managing multi-agent setups in a team context rather than solo use. Directly applicable to any team deploying Claude Code agents in production.",
+      "post_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source": "github",
+      "author": "Yeachan-Heo",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "best_rank": 5,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 36308,
+        "forks": 3298
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "architect-loop-claude-fable-5-as-architect-codex-as-builder",
+      "title": "architect-loop: Claude Fable 5 as architect, Codex as builder, repo as memory",
+      "why_useful": "A research-backed Claude Code skill that assigns Claude Fable 5 the architect role—planning, decomposing, reviewing—while delegating implementation to GPT-5.5 Codex, using the git repo as shared persistent memory. This cross-vendor division of labour is a directly transferable pattern: use the strongest planning model for design decisions and a fast builder for execution, with version control as the shared state layer.",
+      "post_url": "https://github.com/DanMcInerney/architect-loop",
+      "source": "github",
+      "author": "DanMcInerney",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "best_rank": 6,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 218,
+        "forks": 14
       },
       "status": "in_top10"
     }
