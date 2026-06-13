@@ -1,0 +1,301 @@
+[info] profilo 'ai-agentic': handle X per il Passo 2 (MCP nativo): karpathy, mitchellh, simonw, HamelHusain, swyx, mitsuhiko, addyosmani, thorstenball, GeoffreyHuntley
+[warn] GET fallita https://hn.algolia.com/api/v1/search?query=claude+fable+5&tags=story&numericFilt: HTTP Error 403: Forbidden
+[warn] GET fallita https://api.github.com/search/repositories?q=claude%20fable%205%20is%3Apublic%20: HTTP Error 403: Forbidden
+[warn] GET fallita https://api.github.com/search/repositories?q=fable%205%20is%3Apublic%20pushed%3A: HTTP Error 403: Forbidden
+[warn] GET fallita https://api.github.com/search/repositories?q=claude%20code%20is%3Apublic%20pushe: HTTP Error 403: Forbidden
+[warn] Google News RSS fallita: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.oneusefulthing.org: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.interconnects.ai: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.latent.space: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita importai.substack.com: HTTP Error 403: Forbidden
+{
+  "meta": {
+    "query": "claude fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-12",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "github": 17
+    },
+    "source_counts_final": {
+      "github": 12
+    },
+    "count": 12,
+    "generated_at": "2026-06-13T17:04:14+00:00"
+  },
+  "items": [
+    {
+      "source": "github",
+      "title": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "container": "GitHub repo",
+      "body": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 41954,
+        "forks": 6958
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.982
+    },
+    {
+      "source": "github",
+      "title": "DanMcInerney/architect-loop",
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "author": "DanMcInerney",
+      "container": "GitHub repo",
+      "body": "Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the cross-vendor agent loop",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 292,
+        "forks": 21
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 47,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.929
+    },
+    {
+      "source": "github",
+      "title": "Anil-matcha/awesome-claude-fable-5",
+      "url": "https://github.com/Anil-matcha/awesome-claude-fable-5",
+      "author": "Anil-matcha",
+      "container": "GitHub repo",
+      "body": "Curated Claude Fable 5 use cases, tutorials, integrations, demos, and benchmark evidence with source links. Access Claude Fable 5 exclusively via MuAPI.",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 183,
+        "forks": 44
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 46,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.928
+    },
+    {
+      "source": "github",
+      "title": "mrtooher/fable-mode",
+      "url": "https://github.com/mrtooher/fable-mode",
+      "author": "mrtooher",
+      "container": "GitHub repo",
+      "body": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 137,
+        "forks": 20
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 42,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.924
+    },
+    {
+      "source": "github",
+      "title": "Braffolk/fable5-world-demo",
+      "url": "https://github.com/Braffolk/fable5-world-demo",
+      "author": "Braffolk",
+      "container": "GitHub repo",
+      "body": "3D world built by Claude Fable 5 to test its capabilities using three.js",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 69,
+        "forks": 18
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 36,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.918
+    },
+    {
+      "source": "github",
+      "title": "itsinseong/value-for-fable",
+      "url": "https://github.com/itsinseong/value-for-fable",
+      "author": "itsinseong",
+      "container": "GitHub repo",
+      "body": "Fable 5 수준의 품질을 Sonnet 단가에 — 가성비 AI 운영 모델을 직접 구축한 Claude Code 프로젝트",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 41,
+        "forks": 9
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 31,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.913
+    },
+    {
+      "source": "github",
+      "title": "coasty-ai/open-cowork",
+      "url": "https://github.com/coasty-ai/open-cowork",
+      "author": "coasty-ai",
+      "container": "GitHub repo",
+      "body": "Open-source alternative to Claude Co-Work built by Claude Fable 5/Claude Mythos 5. Autonomous computer-use agents for browser automation, desktop control, and agentic workflows.",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "stars": 27,
+        "forks": 9
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 27,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.909
+    },
+    {
+      "source": "github",
+      "title": "[BUG] There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run /model to pick a different model.",
+      "url": "https://github.com/anthropics/claude-code/issues/68128",
+      "author": "RonnyTome",
+      "container": "GitHub issue/PR",
+      "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the late",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "reactions": 17,
+        "comments": 7
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 10,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.892
+    },
+    {
+      "source": "github",
+      "title": "[BUG] Fable is not available",
+      "url": "https://github.com/anthropics/claude-code/issues/68129",
+      "author": "pm0code",
+      "container": "GitHub issue/PR",
+      "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the late",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "reactions": 4,
+        "comments": 18
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 8,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.89
+    },
+    {
+      "source": "github",
+      "title": "fix(llm-gateway): disable claude-fable-5",
+      "url": "https://github.com/PostHog/posthog/pull/63382",
+      "author": "charlesvien",
+      "container": "GitHub issue/PR",
+      "body": "## Problem\r\n\r\nAnthropic is suspending access to Claude Fable 5 globally: https://www.anthropic.com/news/fable-mythos-access\r\n\r\n## Changes\r\n\r\n- Remove `claude-fable-5` from the `posthog_code`/`slack_app` and `background_agents` allowlists, which drops it from `/{product}/v1/models` and rejects reques",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "reactions": 3,
+        "comments": 3
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 4,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.886
+    },
+    {
+      "source": "github",
+      "title": "AURSCAN: Scanning AUR packages using Claude LLM",
+      "url": "https://github.com/lenucksi/aur-malware-check/issues/5",
+      "author": "manticore-projects",
+      "container": "GitHub issue/PR",
+      "body": "Please have a look at https://github.com/manticore-projects/aurscan and maybe add.",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "reactions": 17,
+        "comments": 7
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 10,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.592
+    },
+    {
+      "source": "github",
+      "title": "docs: canonical Claude API guidance, README logo + full flags reference",
+      "url": "https://github.com/SeanVasey/rePROMPTer2/pull/5",
+      "author": "SeanVasey",
+      "container": "GitHub issue/PR",
+      "body": "## What\n\nDocumentation-only updates across `CLAUDE.md` and `README.md` (two commits).\n\n### 1. Align CLAUDE.md Claude API guidance with the canonical `claude-api` skill\n- Added `top_k` to the forbidden Opus 4.8 params (`temperature`/`top_p`/`top_k` all 400).\n- Documented that adaptive thinking can sa",
+      "published_at": "2026-06-13",
+      "engagement": {
+        "reactions": 2,
+        "comments": 1
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 1,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.583
+    }
+  ]
+}

@@ -31,12 +31,12 @@ If fewer than 10 use cases pass the bar, the list is published short. No filler.
 <!-- TOP10:START -->
 | # | Use case | Source | Link |
 |---|----------|--------|------|
-| 1 | claude-mem: persistent context across sessions for every agent | GitHub | [repo](https://github.com/thedotmack/claude-mem) |
-| 2 | open-design: local-first open-source Claude Design with 259+ skills | GitHub | [repo](https://github.com/nexu-io/open-design) |
-| 3 | Claude Code best-practice guide: from vibe coding to agentic engineering | GitHub | [repo](https://github.com/shanraisshan/claude-code-best-practice) |
-| 4 | Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design | GitHub | [repo](https://github.com/asgeirtj/system_prompts_leaks) |
-| 5 | oh-my-claudecode: teams-first multi-agent orchestration for Claude Code | GitHub | [repo](https://github.com/Yeachan-Heo/oh-my-claudecode) |
-| 6 | architect-loop: Claude Fable 5 as architect, Codex as builder, repo as memory | GitHub | [repo](https://github.com/DanMcInerney/architect-loop) |
+| 1 | Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design | GitHub | [repo](https://github.com/asgeirtj/system_prompts_leaks) |
+| 2 | architect-loop: Claude Fable 5 as architect, Codex as builder, repo as memory | GitHub | [repo](https://github.com/DanMcInerney/architect-loop) |
+| 3 | fable-mode: activate Fable-style planning, sub-agent delegation, and self-verification in any Claude Code project | GitHub | [repo](https://github.com/mrtooher/fable-mode) |
+| 4 | Curated awesome list of Claude Fable 5 use cases with benchmark evidence | GitHub | [repo](https://github.com/Anil-matcha/awesome-claude-fable-5) |
+| 5 | open-cowork: open-source computer-use agents for browser automation and desktop control | GitHub | [repo](https://github.com/coasty-ai/open-cowork) |
+| 6 | value-for-fable: Fable 5-quality outputs at Sonnet-tier cost via smart model routing | GitHub | [repo](https://github.com/itsinseong/value-for-fable) |
 <!-- TOP10:END -->
 
 ## How it works

@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-06-13T05:09:50Z",
+  "window_hours": 24,
+  "next_update_hours": 12,
+  "run": "2026-06-13-05",
+  "data_quality": "partial",
+  "data_quality_note": "scheduled run: free sources only (HN/GitHub/Google News/Substack), no X data",
+  "items": [
+    {
+      "rank": 1,
+      "title": "claude-mem: persistent context across sessions for every agent",
+      "why_useful": "Captures everything an agent does across sessions, compresses it with AI, and injects relevant context into future sessions—eliminating cold-start amnesia. Any agent built on Claude Code, Codex, Gemini, Hermes, Copilot, or OpenCode can adopt it without changing its core logic. With 82k stars and confirmed growth since last run, it is the most widely validated memory layer in this data set.",
+      "post_url": "https://github.com/thedotmack/claude-mem",
+      "source": "github",
+      "author": "thedotmack",
+      "engagement": {"stars": 82031, "forks": 7081},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 1
+    },
+    {
+      "rank": 2,
+      "title": "open-design: local-first open-source Claude Design with 259+ skills",
+      "why_useful": "A local-first, open-source alternative to Claude Design that runs as a native desktop app with 259+ skills and 142+ design systems. Produces web, desktop, and mobile prototypes plus slides, images, and videos with sandboxed preview and HTML/PDF/PPTX/MP4 export. Wires into Claude Code, Codex, Cursor, and 17+ other CLIs without any cloud dependency.",
+      "post_url": "https://github.com/nexu-io/open-design",
+      "source": "github",
+      "author": "nexu-io",
+      "engagement": {"stars": 64044, "forks": 7144},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 5
+    },
+    {
+      "rank": 3,
+      "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. Confirmed engagement growth with 57,568 stars and 5,780 forks.",
+      "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "github",
+      "author": "shanraisshan",
+      "engagement": {"stars": 57568, "forks": 5780},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 3
+    },
+    {
+      "rank": 4,
+      "title": "Study extracted system prompts from Fable 5, Opus 4.8, and Claude Code to calibrate your own agent design",
+      "why_useful": "A growing collection of extracted system prompts from Anthropic Claude Fable 5, Opus 4.8, Claude Code, and Claude Design alongside OpenAI, Google, and xAI models. Studying these production-grade prompts reveals how major labs structure constraints, format instructions, and guide model behavior—directly applicable when designing your own system prompts for agents. Updated regularly as new models ship.",
+      "post_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "github",
+      "author": "asgeirtj",
+      "engagement": {"stars": 41889, "forks": 6936},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-11",
+      "streak": 4
+    },
+    {
+      "rank": 5,
+      "title": "oh-my-claudecode: teams-first multi-agent orchestration for Claude Code",
+      "why_useful": "A teams-first multi-agent orchestration framework for Claude Code that takes an extensible configuration approach to managing and composing agent setups across a team. With 36,308 stars and 3,298 forks it has strong broad adoption, filling the real gap of managing multi-agent setups in a team context rather than solo use. Directly applicable to any team deploying Claude Code agents in production.",
+      "post_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source": "github",
+      "author": "Yeachan-Heo",
+      "engagement": {"stars": 36308, "forks": 3298},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "streak": 1
+    },
+    {
+      "rank": 6,
+      "title": "architect-loop: Claude Fable 5 as architect, Codex as builder, repo as memory",
+      "why_useful": "A research-backed Claude Code skill that assigns Claude Fable 5 the architect role—planning, decomposing, reviewing—while delegating implementation to GPT-5.5 Codex, using the git repo as shared persistent memory. This cross-vendor division of labour is a directly transferable pattern: use the strongest planning model for design decisions and a fast builder for execution, with version control as the shared state layer. 218 stars on day one indicates early practical uptake.",
+      "post_url": "https://github.com/DanMcInerney/architect-loop",
+      "source": "github",
+      "author": "DanMcInerney",
+      "engagement": {"stars": 218, "forks": 14},
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "streak": 1
+    }
+  ]
+}

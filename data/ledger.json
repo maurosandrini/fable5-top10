@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T05:09:50Z",
+  "updated_at": "2026-06-13T17:07:17Z",
   "note": "Cumulative ledger of every use case that ever passed the quality bar. The public top 10 is a moving window over this list.",
   "items": [
     {
@@ -198,7 +198,7 @@
         "stars": 82031,
         "forks": 7081
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "ecc-agent-harness-with-skills-instincts-memory-and-security",
@@ -270,7 +270,7 @@
         "stars": 57568,
         "forks": 5780
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "open-design-local-first-open-source-claude-design-alternative",
@@ -288,7 +288,7 @@
         "stars": 64044,
         "forks": 7144
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "study-extracted-system-prompts-from-fable-5-opus-4-8-claude-c",
@@ -300,11 +300,11 @@
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
       "last_seen": "2026-06-13",
-      "best_rank": 4,
-      "runs_in_top10": 4,
+      "best_rank": 1,
+      "runs_in_top10": 5,
       "engagement_latest": {
-        "stars": 41889,
-        "forks": 6936
+        "stars": 41954,
+        "forks": 6958
       },
       "status": "in_top10"
     },
@@ -347,20 +347,20 @@
     {
       "id": "curated-awesome-list-of-claude-fable-5-use-cases-with-benchma",
       "title": "Curated awesome list of Claude Fable 5 use cases with benchmark evidence",
-      "why_useful": "A curated catalogue of Claude Fable 5 use cases organized by category, covering tutorials, integrations, demos, and benchmark evidence with source links. Useful as a discovery map when scoping what has been built and validated before committing to a new direction. 151 stars on a brand-new repo indicates rapid community uptake.",
+      "why_useful": "A curated catalogue of Claude Fable 5 use cases organized by category, covering tutorials, integrations, demos, and benchmark evidence with source links. Useful as a discovery map when scoping what has been built and validated before committing to a new direction. Engagement matured from 168 to 183 stars and 44 forks.",
       "post_url": "https://github.com/Anil-matcha/awesome-claude-fable-5",
       "source": "github",
       "author": "Anil-matcha",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
-      "best_rank": 9,
-      "runs_in_top10": 1,
+      "last_seen": "2026-06-13",
+      "best_rank": 4,
+      "runs_in_top10": 2,
       "engagement_latest": {
-        "stars": 168,
-        "forks": 39
+        "stars": 183,
+        "forks": 44
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "fix-explicitly-allow-reasoning-effort-when-calling-fable-5-in",
@@ -468,7 +468,7 @@
         "stars": 36308,
         "forks": 3298
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "architect-loop-claude-fable-5-as-architect-codex-as-builder",
@@ -480,11 +480,65 @@
       "claimed_metrics": null,
       "first_seen": "2026-06-13",
       "last_seen": "2026-06-13",
+      "best_rank": 2,
+      "runs_in_top10": 2,
+      "engagement_latest": {
+        "stars": 292,
+        "forks": 21
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "fable-mode-activate-fable-style-planning-sub-agent-delegation",
+      "title": "fable-mode: activate Fable-style planning, sub-agent delegation, and self-verification in any Claude Code project",
+      "why_useful": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification as a first-class pattern. Any team that wants to bring the Fable 5 orchestration model to their existing Claude Code setup can drop this skill in without modifying their core agent logic. 137 stars on a brand-new repo demonstrates rapid community uptake for the pattern.",
+      "post_url": "https://github.com/mrtooher/fable-mode",
+      "source": "github",
+      "author": "mrtooher",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "best_rank": 3,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 137,
+        "forks": 20
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "open-cowork-open-source-computer-use-agents-for-browser-autom",
+      "title": "open-cowork: open-source computer-use agents for browser automation and desktop control",
+      "why_useful": "An open-source alternative to Claude Co-Work, built with Claude Fable 5, providing autonomous computer-use agents for browser automation, desktop control, and agentic workflows. Delivers a self-hostable foundation for anyone building RPA or autonomous desktop-task pipelines without a cloud dependency. 27 stars and 9 forks on day one indicate early practical interest.",
+      "post_url": "https://github.com/coasty-ai/open-cowork",
+      "source": "github",
+      "author": "coasty-ai",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "best_rank": 5,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 27,
+        "forks": 9
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "value-for-fable-fable-5-quality-outputs-at-sonnet-tier-cost",
+      "title": "value-for-fable: Fable 5-quality outputs at Sonnet-tier cost via smart model routing",
+      "why_useful": "A Claude Code project that demonstrates how to achieve Fable 5-level output quality at Sonnet-tier pricing by building a cost-efficient model routing and operation layer. The pattern is directly transferable to any team running Claude Code continuously that wants to reduce token spend without sacrificing output quality. 41 stars and 9 forks on a brand-new repo confirm early real-world interest.",
+      "post_url": "https://github.com/itsinseong/value-for-fable",
+      "source": "github",
+      "author": "itsinseong",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
       "best_rank": 6,
       "runs_in_top10": 1,
       "engagement_latest": {
-        "stars": 218,
-        "forks": 14
+        "stars": 41,
+        "forks": 9
       },
       "status": "in_top10"
     }
