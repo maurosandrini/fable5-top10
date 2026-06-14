@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T17:07:17Z",
+  "updated_at": "2026-06-14T05:07:17Z",
   "note": "Cumulative ledger of every use case that ever passed the quality bar. The public top 10 is a moving window over this list.",
   "items": [
     {
@@ -239,38 +239,38 @@
     {
       "id": "cc-switch-desktop-app-for-claude-code-codex-gemini-cli",
       "title": "cc-switch: single desktop app to manage Claude Code, Codex, Gemini CLI and others",
-      "why_useful": "A single cross-platform desktop app that unifies Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI, and Hermes Agent under one roof. Eliminates the context-switching cost of juggling separate terminals and authentication sessions when working across multiple AI CLIs. Nearly 100k stars confirms broad real-world adoption.",
+      "why_useful": "A single cross-platform desktop app that unifies Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI, and Hermes Agent under one roof. Eliminates the context-switching cost of juggling separate terminals and authentication sessions when working across multiple AI CLIs. Engagement matured to 100,155 stars and 6,612 forks.",
       "post_url": "https://github.com/farion1231/cc-switch",
       "source": "github",
       "author": "farion1231",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
+      "last_seen": "2026-06-14",
       "best_rank": 4,
-      "runs_in_top10": 2,
+      "runs_in_top10": 3,
       "engagement_latest": {
-        "stars": 98436,
-        "forks": 6478
+        "stars": 100155,
+        "forks": 6612
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "claude-code-best-practice-from-vibe-coding-to-agentic-engineering",
       "title": "Claude Code best-practice guide: from vibe coding to agentic engineering",
-      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. Confirmed engagement growth with 57,568 stars and 5,780 forks.",
+      "why_useful": "This community-curated guide documents the practical transition from vibe coding to disciplined agentic engineering with Claude Code, collecting patterns proven across many real projects. The framing that practice makes claude perfect grounds every technique in repeated use rather than one-shot magic prompts, making it a living reference rather than a static tutorial. Confirmed engagement growth with 57,640 stars and 5,788 forks.",
       "post_url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "github",
       "author": "shanraisshan",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-13",
+      "last_seen": "2026-06-14",
       "best_rank": 2,
-      "runs_in_top10": 4,
+      "runs_in_top10": 5,
       "engagement_latest": {
-        "stars": 57568,
-        "forks": 5780
+        "stars": 57640,
+        "forks": 5788
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "open-design-local-first-open-source-claude-design-alternative",
@@ -281,14 +281,14 @@
       "author": "nexu-io",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-13",
+      "last_seen": "2026-06-14",
       "best_rank": 1,
-      "runs_in_top10": 5,
+      "runs_in_top10": 6,
       "engagement_latest": {
-        "stars": 64044,
-        "forks": 7144
+        "stars": 64421,
+        "forks": 7206
       },
-      "status": "dropped_from_top10"
+      "status": "in_top10"
     },
     {
       "id": "study-extracted-system-prompts-from-fable-5-opus-4-8-claude-c",
@@ -299,12 +299,12 @@
       "author": "asgeirtj",
       "claimed_metrics": null,
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-13",
+      "last_seen": "2026-06-14",
       "best_rank": 1,
-      "runs_in_top10": 5,
+      "runs_in_top10": 6,
       "engagement_latest": {
-        "stars": 41954,
-        "forks": 6958
+        "stars": 42016,
+        "forks": 6970
       },
       "status": "in_top10"
     },
@@ -360,7 +360,7 @@
         "stars": 183,
         "forks": 44
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "fix-explicitly-allow-reasoning-effort-when-calling-fable-5-in",
@@ -486,7 +486,7 @@
         "stars": 292,
         "forks": 21
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "fable-mode-activate-fable-style-planning-sub-agent-delegation",
@@ -504,7 +504,7 @@
         "stars": 137,
         "forks": 20
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "open-cowork-open-source-computer-use-agents-for-browser-autom",
@@ -522,23 +522,77 @@
         "stars": 27,
         "forks": 9
       },
-      "status": "in_top10"
+      "status": "dropped_from_top10"
     },
     {
       "id": "value-for-fable-fable-5-quality-outputs-at-sonnet-tier-cost",
       "title": "value-for-fable: Fable 5-quality outputs at Sonnet-tier cost via smart model routing",
-      "why_useful": "A Claude Code project that demonstrates how to achieve Fable 5-level output quality at Sonnet-tier pricing by building a cost-efficient model routing and operation layer. The pattern is directly transferable to any team running Claude Code continuously that wants to reduce token spend without sacrificing output quality. 41 stars and 9 forks on a brand-new repo confirm early real-world interest.",
+      "why_useful": "A Claude Code project that demonstrates how to achieve Fable 5-level output quality at Sonnet-tier pricing by building a cost-efficient model routing and operation layer. The pattern is directly transferable to any team running Claude Code continuously that wants to reduce token spend without sacrificing output quality. Engagement matured strongly from 41 to 115 stars and 9 to 27 forks confirming rapid adoption.",
       "post_url": "https://github.com/itsinseong/value-for-fable",
       "source": "github",
       "author": "itsinseong",
       "claimed_metrics": null,
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-13",
+      "last_seen": "2026-06-14",
+      "best_rank": 3,
+      "runs_in_top10": 2,
+      "engagement_latest": {
+        "stars": 115,
+        "forks": 27
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "fusion-fable-model-consensus-loop-opus-drafts-peer-checks-fus",
+      "title": "fusion-fable: model consensus loop — Opus 4.8 drafts, peer checks, Opus fuses",
+      "why_useful": "A Claude Code skill that routes each task through a consensus loop: Opus 4.8 produces the initial draft, a second frontier model (Opus 4.8 or GPT-5.5 Codex) reviews it, and Opus fuses the best of both into the final answer. The pattern is directly transferable to any high-stakes generation task where a single model pass carries too much variance. 46 stars and 5 forks for a brand-new repo signal that the idea resonates with practitioners.",
+      "post_url": "https://github.com/duolahypercho/fusion-fable",
+      "source": "github",
+      "author": "duolahypercho",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
       "best_rank": 6,
       "runs_in_top10": 1,
       "engagement_latest": {
-        "stars": 41,
-        "forks": 9
+        "stars": 46,
+        "forks": 5
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "why-was-fable-banned-spec-first-evidence-gated-agent-enforcem",
+      "title": "why-was-fable-banned: spec-first, evidence-gated enforcement — agent can't edit until spec passes",
+      "why_useful": "A zero-dependency gate built for Claude Code and Codex that blocks any file edit until the agent writes a spec that satisfies all acceptance criteria. The pattern enforces the discipline that separates reliable agentic engineering from vibe-driven iteration: you cannot shortcut to code without a passing plan. 26 stars and 7 forks on day one show immediate practical uptake for the spec-first gate approach.",
+      "post_url": "https://github.com/SihyeonJeon/why-was-fable-banned",
+      "source": "github",
+      "author": "SihyeonJeon",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "best_rank": 7,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 26,
+        "forks": 7
+      },
+      "status": "in_top10"
+    },
+    {
+      "id": "career-ops-claude-code-application-with-14-skill-modes",
+      "title": "career-ops: Claude Code application with 14 skill modes, Go dashboard, and PDF generation",
+      "why_useful": "A fully realized Claude Code system with 14 specialized skill modes, a Go-based dashboard for tracking, batch processing, and PDF export — showing how to compose skills, a backend service, and export pipelines into a single production system. Useful as a reference architecture for anyone building multi-skill Claude Code applications beyond trivial examples. 53,565 stars and 10,663 forks confirm broad real-world interest.",
+      "post_url": "https://github.com/santifer/career-ops",
+      "source": "github",
+      "author": "santifer",
+      "claimed_metrics": null,
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-14",
+      "best_rank": 8,
+      "runs_in_top10": 1,
+      "engagement_latest": {
+        "stars": 53565,
+        "forks": 10663
       },
       "status": "in_top10"
     }

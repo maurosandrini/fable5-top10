@@ -1,0 +1,386 @@
+[info] profilo 'ai-agentic': handle X per il Passo 2 (MCP nativo): karpathy, mitchellh, simonw, HamelHusain, swyx, mitsuhiko, addyosmani, thorstenball, GeoffreyHuntley
+[warn] GET fallita https://hn.algolia.com/api/v1/search?query=claude+fable+5&tags=story&numericFilt: HTTP Error 403: Forbidden
+[warn] Google News RSS fallita: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.oneusefulthing.org: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.interconnects.ai: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita www.latent.space: HTTP Error 403: Forbidden
+[warn] Substack RSS fallita importai.substack.com: HTTP Error 403: Forbidden
+{
+  "meta": {
+    "query": "claude fable 5",
+    "days": 1,
+    "x_coverage_days": 1,
+    "from": "2026-06-13",
+    "sources": [
+      "github",
+      "googlenews",
+      "hackernews",
+      "substack"
+    ],
+    "profile": "ai-agentic",
+    "x_handles_hint": "karpathy, mitchellh, simonw, HamelHusain",
+    "min_rel": 0.15,
+    "source_counts_raw": {
+      "github": 38
+    },
+    "source_counts_final": {
+      "github": 16
+    },
+    "count": 16,
+    "generated_at": "2026-06-14T05:05:05+00:00"
+  },
+  "items": [
+    {
+      "source": "github",
+      "title": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "author": "asgeirtj",
+      "container": "GitHub repo",
+      "body": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 42016,
+        "forks": 6970
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 93,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.975
+    },
+    {
+      "source": "github",
+      "title": "itsinseong/value-for-fable",
+      "url": "https://github.com/itsinseong/value-for-fable",
+      "author": "itsinseong",
+      "container": "GitHub repo",
+      "body": "Fable 5 수준의 품질을 Sonnet 단가에 — 가성비 AI 운영 모델을 직접 구축한 Claude Code 프로젝트",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 115,
+        "forks": 27
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 39,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.921
+    },
+    {
+      "source": "github",
+      "title": "duolahypercho/fusion-fable",
+      "url": "https://github.com/duolahypercho/fusion-fable",
+      "author": "duolahypercho",
+      "container": "GitHub repo",
+      "body": "Fuse two frontier models into one Fable-tier answer: Opus 4.8 drafts, a second model (Opus 4.8 or GPT-5.5 via codex) checks, Opus fuses. A Claude Code skill.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 46,
+        "forks": 5
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 29,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.911
+    },
+    {
+      "source": "github",
+      "title": "SihyeonJeon/why-was-fable-banned",
+      "url": "https://github.com/SihyeonJeon/why-was-fable-banned",
+      "author": "SihyeonJeon",
+      "container": "GitHub repo",
+      "body": "Spec-first, evidence-gated engineering-procedure enforcement for AI coding agents (Claude Code + Codex). The agent can't edit until it writes a passing spec.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 26,
+        "forks": 7
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 26,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.908
+    },
+    {
+      "source": "github",
+      "title": "gn00678465/endurance-guidelines",
+      "url": "https://github.com/gn00678465/endurance-guidelines",
+      "author": "gn00678465",
+      "container": "GitHub repo",
+      "body": "一份給 AI 編碼代理的行為規範（CLAUDE.md），專門修復 Claude Opus 4.8 在長任務中最常被詬病的兩個問題——降智與敷衍——並由其後一代模型 Claude Fable 5 撰寫與驗證。",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 1,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 4,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.886
+    },
+    {
+      "source": "github",
+      "title": "dev-bricks/fable-5-hunter",
+      "url": "https://github.com/dev-bricks/fable-5-hunter",
+      "author": "dev-bricks",
+      "container": "GitHub repo",
+      "body": "Zero-dependency watcher that notifies you the moment Claude Fable 5 is reachable again in Claude Code (Telegram/Discord/ntfy/desktop). MIT.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "ajantoniou/fable-design-system",
+      "url": "https://github.com/ajantoniou/fable-design-system",
+      "author": "ajantoniou",
+      "container": "GitHub repo",
+      "body": "Bring Fable-style design taste to any AI coding agent. Free MIT design system for Claude, Opus 4.8, Codex, Cursor, Gemini & Antigravity. By Dr. Antoniou, free from UploadCheck.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.884
+    },
+    {
+      "source": "github",
+      "title": "Yorick-Ryu/FableLegacy",
+      "url": "https://github.com/Yorick-Ryu/FableLegacy",
+      "author": "Yorick-Ryu",
+      "container": "GitHub repo",
+      "body": "Fable Legacy archive site for Claude Fable 5 projects",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 0,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 1.0,
+        "freshness": 100,
+        "engagement": null,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.882
+    },
+    {
+      "source": "github",
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "author": "farion1231",
+      "container": "GitHub repo",
+      "body": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 100155,
+        "forks": 6612
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 100,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.682
+    },
+    {
+      "source": "github",
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "author": "nexu-io",
+      "container": "GitHub repo",
+      "body": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 64421,
+        "forks": 7206
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 97,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.679
+    },
+    {
+      "source": "github",
+      "title": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "author": "santifer",
+      "container": "GitHub repo",
+      "body": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 53565,
+        "forks": 10663
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 96,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.678
+    },
+    {
+      "source": "github",
+      "title": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "container": "GitHub repo",
+      "body": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 57640,
+        "forks": 5788
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 95,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.677
+    },
+    {
+      "source": "github",
+      "title": "jagmarques/company-skill",
+      "url": "https://github.com/jagmarques/company-skill",
+      "author": "jagmarques",
+      "container": "GitHub repo",
+      "body": "Fable 5 / Mythos style orchestration: a multi-agent company that verifies its own work and cannot stop until every criterion passes.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 3,
+        "forks": 1
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 9,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.591
+    },
+    {
+      "source": "github",
+      "title": "erickcxc/fable5-gemini-pro-3.1",
+      "url": "https://github.com/erickcxc/fable5-gemini-pro-3.1",
+      "author": "erickcxc",
+      "container": "GitHub repo",
+      "body": "Cross-lab QC for what the build model can't perceive: Fable 5 reads a still, Gemini 3.1 Pro watches the video and hears the audio. Capture in, JSON verdict out, loop until PASS.",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.584
+    },
+    {
+      "source": "github",
+      "title": "pinguy/murkk",
+      "url": "https://github.com/pinguy/murkk",
+      "author": "pinguy",
+      "container": "GitHub repo",
+      "body": "Game Created to Make it as Small as Possible - One Shot with Fable 5, refined with GPT 5.5",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "stars": 1,
+        "forks": 0
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.584
+    },
+    {
+      "source": "github",
+      "title": "chore: add CLAUDE.md",
+      "url": "https://github.com/pressdarling/rg-zsh-plugin/pull/5",
+      "author": "pressdarling",
+      "container": "GitHub issue/PR",
+      "body": "",
+      "published_at": "2026-06-14",
+      "engagement": {
+        "reactions": 1,
+        "comments": 2
+      },
+      "scores": {
+        "relevance": 0.5,
+        "freshness": 100,
+        "engagement": 2,
+        "engagement_known": true,
+        "source_quality": 0.82
+      },
+      "days_ago": 0,
+      "rank": 0.584
+    }
+  ]
+}
